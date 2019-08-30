@@ -73,6 +73,41 @@ ConfiteborAltoNotes = {
 		c16[ a h g] fis4 %70
 		g r
 		R2*12 %83
+		\time 3/4 r4 h, e
+		a8([ g)] fis([ g)] a([ h)] %85
+		g([ a)] fis([ g)] e4
+		e4. dis8 dis4
+		r e d
+		cis4. d8 e4~
+		e d8.[ e16] c8.[ d16] %90
+		h4. c8 d4
+		g8[ fis e d c h]
+		a2 a'8[ g]
+		fis[ e fis] g a d,
+		g2 fis4~ %95
+		fis8[ g] e2
+		d4 r r
+		R2.*2
+		r4 fis e %100
+		dis4. e8 fis4~
+		fis e8.[ fis16] d8.[ e16]
+		cis4. d8 e4
+		a8[ g fis e d c]
+		h2 h'8[ a] %105
+		g[ fis] g2~
+		g4 fis8[( g]) a4~
+		a8[ h] g([ fis)] g4~
+		g8[ a fis e] fis4
+		h8[ a g fis] e4~ %110
+		e8 fis e4( dis)
+		e r r
+		R2.*4 %116
+		r4 fis fis
+		fis2 h8[ a]
+		g4. a8 h4
+		e,8([ fis] e4 dis) %120
+		e r r
+		R2.*5 %126
 	}
 }
 
@@ -128,6 +163,41 @@ ConfiteborAltoLyrics = \lyricmode {
 	_ _
 	_ _ %70
 	ne.
+	
+	Ma -- gna %84
+	o -- pe -- ra, %85
+	o -- pe -- ra
+	Do -- mi -- ni:
+	Ex -- qui --
+	si -- ta in __
+	o -- _ %90
+	_ _ _
+	_
+	_ _
+	_ mnes vo -- lun --
+	ta -- tes __ %95
+	e --
+	ius.
+	
+	Ex -- qui -- %100
+	si -- ta in __
+	o -- _
+	_ _ _
+	_
+	_ _ %105
+	_ _
+	mnes vo --
+	lun -- ta --
+	_
+	_ _ %110
+	tes e --
+	ius,
+	
+	vo -- lun -- %117
+	ta -- _
+	_ _ tes
+	e -- %120
+	ius.
 }
 
 % AltoNotes = {
@@ -143,12 +213,12 @@ ConfiteborAltoLyrics = \lyricmode {
 % }
 
 % 1  Alleluja. Confitebor tibi, Domine, in toto corde meo, in consilio iustorum, et congregatione.
-% 2  Magna opera Domini: exquisita in omnes voluntates ejus.
-% 3  Confessio et magnificentia opus ejus, et justitia ejus manet in saeculum saeculi.
+% 2  Magna opera Domini: Exquisita in omnes voluntates eius.
+% 3  Confessio et magnificentia opus eius, et iustitia eius manet in saeculum saeculi.
 % 4  Memoriam fecit mirabilium suorum, misericors et miserator Dominus.
 % 5  Escam dedit timentibus se; memor erit in saeculum testamenti sui.
 % 6  Virtutem operum suorum annuntiabit populo suo,
-% 7  ut det illis haereditatem gentium. Opera manuum ejus veritas et judicium.
-% 8  Fidelia omnia mandata ejus, confirmata in saeculum saeculi, facta in veritate et aequitate.
-% 9  Redemptionem misit populo suo; mandavit in aeternum testamentum suum. Sanctum et terribile nomen ejus.
-% 10  Initium sapientiae timor Domini; intellectus bonus omnibus facientibus eum: laudatio ejus manet in saeculum saeculi.
+% 7  ut det illis haereditatem gentium. Opera manuum eius veritas et iudicium.
+% 8  Fidelia omnia mandata eius, confirmata in saeculum saeculi, facta in veritate et aequitate.
+% 9  Redemptionem misit populo suo; mandavit in aeternum testamentum suum. Sanctum et terribile nomen eius.
+% 10  Initium sapientiae timor Domini; intellectus bonus omnibus facientibus eum: laudatio eius manet in saeculum saeculi.

@@ -121,11 +121,11 @@ ConfiteborOrgano = {
 		e4. fis8 g4~ %110
 		g8 a h4 h,
 		e r r
-		a fis d
+		a\fE fis d
 		g r e
 		fis r dis %115
 		e4. fis8 g4
-		a2.
+		a2.\pE
 		h4 dis, h
 		e4. fis8 g4~
 		g8 a h4 h, %120

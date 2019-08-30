@@ -65,7 +65,32 @@ ConfiteborViolinoI = {
 		c4~ c16 c h a \noBreak
 		h a g h a g fis a
 		\time 3/4 \tempoMagnaOpera g4 r r \noBreak
-		
+		R2.*2 %86
+		h8\pE fis h,4 r
+		e8 h e,4 r
+		a'8 e a,4 r
+		d8 a d,4 r %90
+		R2.*9 %99
+		fis'8 cis fis,4 r %100
+		h8 fis h,4 r
+		e'8 h e,4 r
+		a8 e a,4 r
+		R2.*7 %110
+		r4 r h''8\fE a
+		g fis \once \tieDashed g2~
+		g4 fis8 g a4~
+		a8 h g fis g4~
+		g8 a fis e fis4 %115
+		h8 a g fis e4
+		R2.*3
+		r4 r h'8 a %120
+		g fis g2~
+		g4 fis8 g a4~
+		a8 h g fis g4~
+		g8 a fis e fis4
+		h8 a g fis e4~ \noBreak %125
+		e8 fis e4 dis
+		\time 4/4 \tempoConfessio e4 r r8 g a16 h c d \noBreak
 	}
 }
 

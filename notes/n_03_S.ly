@@ -70,6 +70,41 @@ ConfiteborSopranoNotes = {
 		e16[ c' h c] a4 %70
 		g r
 		R2*12 %83
+		\time 3/4 \tempoMagnaOpera R2.*3 %86
+		r4 h a
+		gis4. a8 h4~
+		h a8.[ h16] g8.[ a16]
+		fis4. g8 a4 %90
+		d8[ c h a g fis]
+		e2 e'8[ d]
+		c[ h] c2~
+		c4. h8 c d
+		h4( cis) d~ %95
+		d8[ e] cis2
+		d4 fis, h
+		e8[( d]) cis[( d)] e8.([ fis16)]
+		d8([ e)] cis([ d)] h4
+		h4. ais8 ais4 %100
+		r h a
+		gis4. a8 h4~
+		h a8.[ h16] g8.[ a16]
+		fis4. g8 a4
+		d8[ c h a g fis] %105
+		e2 e'8[ d]
+		c4. e8 d c
+		h4. d8[ c h]
+		a4. c8[ h a]
+		g[ h] e4. d16[ c] %110
+		h8 a g4( fis)
+		e r r
+		R2.*3 %115
+		r4 h' e
+		e2 fis8[ e]
+		dis[ cis] h4 r
+		r e4. d16[( c])
+		h8 a g4( fis) %120
+		e r r
+		R2.*5 %126
 	}
 }
 
@@ -122,6 +157,40 @@ ConfiteborSopranoLyrics = \lyricmode {
 	_
 	_ _ %70
 	ne.
+	
+	Ex -- qui -- %87
+	si -- ta in __
+	o -- _
+	_ _ _ %90
+	_
+	_ _
+	_ _
+	mnes vo -- lun --
+	ta -- tes __ %95
+	e --
+	ius. Ma -- gna
+	o -- pe -- ra,
+	o -- pe -- ra
+	Do -- mi -- ni: %100
+	Ex -- qui --
+	si -- ta in __
+	o -- _
+	_ _ _
+	_ %105
+	_ _
+	_ mnes vo -- lun --
+	ta -- _
+	_ _
+	_ _ _ %110
+	_ tes e --
+	ius,
+	
+	vo -- lun -- %116
+	ta -- _
+	_ tes,
+	vo -- lun --
+	ta -- tes e -- %120
+	ius.
 }
 
 % SopranoNotes = {
