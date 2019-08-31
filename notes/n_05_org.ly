@@ -135,44 +135,44 @@ ConfiteborOrgano = {
 		fis r dis
 		e4. fis8 g4~ \noBreak %125
 		g8 a h4 h,
-		\time 4/4 \tempoConfessio e8 h\pE c d g, g'4 fis8~ \noBreak
-		fis e4 \once \tieDashed d8~ d c4 h8
+		\time 4/4 \tempoConfessio e8 h\pE c d g, g'4\fE fis8~ \noBreak
+		fis e4 \once \tieDashed d8~ d c4 h8\pE
 		c h a d g, fis' e h
-		c g d' d, g g'4 fis8~ %130
+		c g d' d, g g'4\fE fis8~ %130
 		fis e4 \once \tieDashed d8~ d c4 h8
-		g' g, d' d, g g' fis16 e fis d
+		c-\critnote g d' d, g g'\pE fis16 e fis d
 		g8 e fis d g fis e a,
-		d d'4 cis8 d d, r d'
-		cis a gis e a, a'4 gis8 %135
-		a g f e d d e f
+		d d'4\fE cis8 d d, r d'\pE
+		c a gis e a, a'4\fE gis8 %135
+		a g\pE f e d d e f
 		g f e d c c' d c
-		h c16 f, g8 g, c c'4 \once \tieDashed h8~
+		h c16 f, g8 g, c c'4\fE \once \tieDashed h8~
 		h a4 g f e8
-		f c g' g, c4 c'8 h %140
+		f c g' g, c4 c'8\pE h %140
 		a4. g8 f e d f
-		e4. d8 c a'4 gis8
-		a c, d e a, a' f g
+		e4.\fE d8 c a'4 gis8
+		a c,\pE d e a, a' f g
 		c, a'4 gis8 a d, e e,
-		a4 h c8 c' h gis %145
-		a e16 fis! g8 g, c e d g,
-		c4 g' c,8 c' h g
+		a4 h c8 c'\fE h gis %145
+		a e16\pE fis! g8 g, c\fE e d g,
+		c4 g' c,8 c'\pE h g
 		a c, d fis g h,16 c d8 d,
-		g g' d' d, g g fis e
+		g\fE g' d' d, g g\pE fis e
 		dis4 r8 h e8 d c4 %150
-		h e d g,
-		d' g d g,
+		h\fE e d g,\pE
+		d' g\fE d g,\pE
 		c r8 h a4 fis'8 e
 		d4 r8 c h4 g'8 fis
-		e d c a h4 e %155
-		d g,8 g' a f e h
+		e d c a h4\fE e %155
+		d g,8 g'\pE a f e h
 		c4 d8 a h4 c8 a
 		h16 h' a h g8 a dis,8 e h' h,
-		e4 h' e, d
-		g,8 g' c a h4 a %160
+		e4\fE h' e, d
+		g,8 g'\pE c a h4 a %160
 		g e dis h
 		e a8 c, d4 g8 h,
 		c4 fis8 a, h a g16 g' fis e
-		dis8 e h' h, e4 a \noBreak
+		dis8 e h' h, e4\fE a \noBreak
 		e dis g8 a h h, %165
 		\time 2/4 e4 g \noBreak
 		a h

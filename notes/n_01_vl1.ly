@@ -91,6 +91,41 @@ ConfiteborViolinoI = {
 		h8 a g fis e4~ \noBreak %125
 		e8 fis e4 dis
 		\time 4/4 \tempoConfessio e4 r r8 g a16 h c d \noBreak
+		g, a h c fis, g a h e, fis g a d,8 g\pE
+		c, d e a, h4 r
+		r2 r8 g'\fE a16 h c d %130
+		g, a h c fis, g a h e, fis g a d,8 g
+		c,16 d h c a8. g16 g4 r
+		R1
+		r8 d' e16 fis g a fis4 r
+		r2 r8 a, h16 c d e %135
+		c4 r r2
+		R1
+		r2 r8 c d16 e f g
+		c, d e f h, c d e a, h c d g,8 c
+		f16 g e f d8. c16 c4 r %140
+		R1
+		r8 h' gis e a a, h16 c d e
+		c4 r r2
+		R1
+		r2 r16 a32 h c16 a h h32 c d16 h %145
+		c4 r r16 c32 d e16 c d d32 e f16 d
+		e e32 f g16 e d d32 e f16 d e4 r
+		R1
+		h'16 h32 c d16 h a a32 h c16 a h4 r
+		R1 %150
+		fis16 fis32 g a16 fis g g32 a h16 g a a32 h c16 a h4
+		r4 h16 h32 c d16 h a a32 h c16 a h4
+		R1*2
+		r2 fis16 fis32 g a16 fis^\critnote g g32 a h16 g %155
+		a a32 h c16 a h4 r2
+		R1*2
+		r16 e,32 fis g16 e fis fis32 g a16 fis g g32 a h16 g a a32 h c16 a
+		h4 r r2 %160
+		R1*3
+		r2 r16 e,32 fis g16 e fis fis32 g a16 fis \noBreak
+		g g32 a h16 g a a32 h c16 a h a g a fis8. e16 %165
+		\time 2/4 e4 r \noBreak
 	}
 }
 

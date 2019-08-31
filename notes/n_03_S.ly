@@ -105,6 +105,26 @@ ConfiteborSopranoNotes = {
 		h8 a g4( fis) %120
 		e r r
 		R2.*5 %126
+		\time 4/4 \tempoConfessio r8 g a16([ h c d] h) a g8 r4
+		r2 r4 r8 g
+		e'16([ f d e] c8.) h16 h8 d g,4~
+		g16[( c h c] a8.) g16 g4 r %130
+		R1
+		r4 r8 d' h a16 g a8 d
+		h16([ a)] g([ h)] a8 d16 c h8 a g4
+		fis r r8 d16 e fis8 fis16 gis
+		a8 a h16([ c)] d([ e)] c([ h)] a8 r4 %135
+		c4. d16[ e] f4~ f16[ e d c]
+		h[ a g8]~ g16[ a32 h c d e f] g8 e16 c f4~
+		f16[ e32 d] e16 f d8. c16 c4 r
+		R1
+		r4 g~ g8[ a16 g] e'4~ %140
+		e16[ d c h] a4~ a8[ h16 a] f'8 a,
+		gis8. a16 h4 r2
+		r8 a h16[ c d e] c[ d e f] d[ e f g]
+		e16.[ d32 e16 f] d16.[ c32 d16 e] c8 h16 a gis8. a16
+		a4 r r2 %145
+		R1*20 %165
 	}
 }
 
@@ -191,6 +211,26 @@ ConfiteborSopranoLyrics = \lyricmode {
 	vo -- lun --
 	ta -- tes e -- %120
 	ius.
+	
+	Con -- fes -- si -- o, %127
+	con --
+	fes -- si -- o, con -- fes --
+	si -- o, %130
+	
+	con -- fes -- si -- o et ma --
+	gni -- fi -- cen -- ti -- a o -- pus e --
+	ius, et iu -- sti -- ti -- a
+	e -- ius ma -- net, ma -- net, %135
+	ma -- _ _
+	_ _ net in sae --
+	cu -- lum sae -- cu -- li,
+	
+	ma -- _ %140
+	_ net in
+	sae -- cu -- lum,
+	in sae -- _ _
+	_ _ _ cu -- lum sae -- cu --
+	li. %145
 }
 
 % SopranoNotes = {

@@ -87,5 +87,40 @@ ConfiteborViolinoII = {
 		g h e4. d16 c \noBreak %125
 		h8 a g4 fis\trill
 		\time 4/4 \tempoConfessio e4 r r8 h'' c a \noBreak
+		h g a fis g e fis d\pE
+		e g4 fis8 g4 r
+		r2 r8 h\fE c a %130
+		h g a fis g e fis d
+		e g4 fis8 g4 r
+		R1
+		r8 fis g e a4 r
+		r2 r8 c, d h %135
+		e4 r r2
+		R1
+		r2 r8 e f d
+		e c d h c a h g
+		a c4 h8 c4 r %140
+		R1
+		r2 r8 c d h
+		e4 r r2
+		R1
+		r2 r16 a,32 h c16 a gis gis32 a h16 gis %145
+		a4 r r16 c32 d e16 c h h32 c d16 h
+		c c32 d e16 c h h32 c d16 h c4 r
+		R1
+		g'16 g32 a h16 g fis fis32 g a16 fis g4 r
+		R1 %150
+		dis16 dis32 e fis16 dis e e32 fis g16 e fis fis32 g a16 fis g4
+		r g16 g32 a h16 g fis fis32 g a16 fis g4
+		R1*2
+		r2 dis16 dis32 e fis16 dis e e32 fis g16 e %155
+		fis fis32 g a16 fis g4 r2
+		R1*2
+		r16 e32 fis g16 e dis dis32 e fis16 dis e e32 fis g16 e fis fis32 g a16 fis
+		g4 r r2 %160
+		R1*3
+		r2 r16 e32 fis g16 e dis dis32 e fis16 dis \noBreak
+		e e32 fis g16 e fis fis32 g a16 fis g fis e fis dis8. e16 %165
+		\time 2/4 e4 r\noBreak
 	}
 }

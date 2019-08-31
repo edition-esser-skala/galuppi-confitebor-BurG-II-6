@@ -108,6 +108,28 @@ ConfiteborAltoNotes = {
 		e,8([ fis] e4 dis) %120
 		e r r
 		R2.*5 %126
+		\time 4/4 \tempoConfessio R1*18 %144
+		r8 a gis16([ fis)] e d c([ h)] a8 r4 %145
+		r8 c' h16([ a)] g f e([ d)] c8 r4
+		r2 r8 g' g a16 h
+		c8 a c, a' d,16 c' h a32([ g)] g8.( a16)
+		g4 r r8 h a g
+		fis h, c'16([ h)] a8 g16([ a)] fis([ g)] e8. dis16 %150
+		dis?4 r r h'8 g
+		a d, r4 r d8 g
+		e16[ d c h] c[ e fis g] a[ h c h] a16.[ h32] g[ fis g a]
+		fis16[ e d cis] d[ fis g a] h[ c d c] h16.[ c32] a[ g a h]
+		g8 a16 h e,8 fis16 e dis4 r %155
+		r r8 h' c16[ h c a] gis[ h e, gis]
+		a[ c a g] fis[ a d, fis] g[ h g fis] e[ g fis e]
+		dis8. dis16 e8 c' h16.[( a32 g16 fis32 e] g8) fis16 e
+		e4 r r2
+		r8 h' e,16[ g fis e] dis[ e fis8]~ fis16[ a g fis] %160
+		e[ fis g8]~ g16[ h a g] fis[ g a8]~ a16[ c h a]
+		g[ fis g e] c'4~ c16[ fis, g a] h4~
+		h16[ e, fis g] a4~ a16[ fis g a] h4~
+		h32[ c h a] g16[ fis32 e] g8 fis16 e e4 r
+		R1 %165
 	}
 }
 
@@ -198,6 +220,27 @@ ConfiteborAltoLyrics = \lyricmode {
 	_ _ tes
 	e -- %120
 	ius.
+	
+	Me -- mo -- ri -- am fe -- cit, %145
+	me -- mo -- ri -- am fe -- cit,
+	me -- mo -- ri -- am
+	fe -- cit mi -- ra -- bi -- li -- um su -- o --
+	rum, mi -- se -- ri --
+	cors et mi -- se -- ra -- tor Do -- mi -- %150
+	nus. E -- scam
+	de -- dit, e -- scam
+	de -- _ _ _ _
+	_ _ _ _ _
+	_ dit ti -- men -- ti -- bus se, %155
+	ti -- men -- _
+	_ _ _ _
+	_ ti -- bus, ti -- men -- ti -- bus
+	se,
+	ti -- men -- _ %160
+	_ _
+	_ _ _
+	_ _
+	_ _ ti -- bus se.
 }
 
 % AltoNotes = {
