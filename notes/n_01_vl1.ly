@@ -126,6 +126,77 @@ ConfiteborViolinoI = {
 		r2 r16 e,32 fis g16 e fis fis32 g a16 fis \noBreak
 		g g32 a h16 g a a32 h c16 a h a g a fis8. e16 %165
 		\time 2/4 e4 r \noBreak
+		R2*4 %170
+		r4 r8 h'
+		e, fis g a
+		h4. h8
+		a g a h
+		g fis g a %175
+		fis e16 fis g8 a
+		g4 fis
+		e r
+		R2
+		r4 e~\pE %180
+		e dis
+		e8 fis g4
+		fis4. fis8
+		e4 r
+		R2*14 %198
+		r4 g~\fE
+		g fis %200
+		g fis8 fis
+		e4. e8
+		d4 r8 g,\pE
+		e'4 d8 c
+		h4 r %205
+		R2*2
+		r4 r8 d'\fE
+		g, a h c
+		d4. d8 %210
+		c h c d
+		h a h c
+		a g16 a h8 c^\critnote
+		h4 a\trill
+		g r %215
+		R2*2
+		r4 r8 a
+		d, e fis g
+		a4. a8 %220
+		g fis g a
+		fis e fis g
+		e d16 e fis8 g
+		fis4 e
+		d r %225
+		R2*13 %238
+		r4 r8 cis'
+		fis, gis a h %240
+		cis4. cis8
+		h a h cis
+		a gis a h
+		gis fis16 gis a8 h
+		a4 gis\trillE %245
+		fis r
+		R2
+		r4 r8 e
+		a, h cis d
+		e4. e8 %250
+		d cis d e
+		cis h cis d
+		h a16 h cis8 d
+		cis4 h\trill
+		a r %255
+		R2*7 %262
+		r4 e'8. d16
+		cis8 d e4~
+		e d8 cis? %265
+		h cis d4~
+		d cis
+		fis2
+		e
+		d~ %270
+		d4 cis8 d
+		cis4 h
+		a r\fermata \bar "||" %273 finis
 	}
 }
 

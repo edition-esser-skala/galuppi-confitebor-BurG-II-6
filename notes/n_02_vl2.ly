@@ -122,5 +122,68 @@ ConfiteborViolinoII = {
 		r2 r16 e32 fis g16 e dis dis32 e fis16 dis \noBreak
 		e e32 fis g16 e fis fis32 g a16 fis g fis e fis dis8. e16 %165
 		\time 2/4 e4 r\noBreak
+		R2*5 %171
+		r4 r8 e
+		h cis d e
+		fis4. fis8
+		e dis e fis %175
+		dis cis16 dis e8 a
+		g4 fis
+		e r
+		R2*3 %181
+		r4 e~\pE
+		e dis
+		e r
+		R2*16 %200
+		r4 d~\fE
+		d cis
+		d h8\pE h
+		a4. a8
+		g4 r %205
+		R2
+		r4 g'~\fE
+		g fis
+		g4 r8 g
+		d e fis g %210
+		a4. a8
+		g fis g a
+		fis e16 fis g8 a
+		g4 fis\trill
+		g r %215
+		R2*3
+		r4 r8 d
+		a h cis d %220
+		e4. e8
+		d cis d e
+		cis h16 cis d8 e
+		d4 cis
+		d r %225
+		R2*14 %239
+		r4 r8 fis %240
+		cis dis eis fis
+		gis4. gis8
+		fis eis fis gis
+		eis4 fis8 gis
+		fis4 eis\trill %245
+		fis r
+		R2*2
+		r4 r8 a
+		e fis gis a %250
+		h4. h8
+		a gis a h
+		gis fis16 gis a8 h
+		a4 gis\trill
+		a r %255
+		R2*8 %263
+		r4 a8. g!16
+		fis8 gis a4~ %265
+		a gis8 fis
+		e4 a
+		d,8 e fis gis
+		a h cis a
+		h a gis fis %270
+		e4 a8 h
+		a4 gis
+		a r\fermata \bar "||" %273 finis
 	}
 }

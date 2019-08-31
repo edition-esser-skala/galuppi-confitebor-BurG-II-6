@@ -130,6 +130,76 @@ ConfiteborAltoNotes = {
 		h16[ e, fis g] a4~ a16[ fis g a] h4~
 		h32[ c h a] g16[ fis32 e] g8 fis16 e e4 r
 		R1 %165
+		\time 2/4 R2*2
+		r4 h'~
+		h ais
+		h g8 g %170
+		fis4. fis8
+		e4 r
+		R2*3 %175
+		r4 e~
+		e dis
+		e d8 d
+		cis4. cis8
+		h4 r %180
+		R2*4
+		r4 r8 g' %185
+		c,[ d e fis]
+		g[ a h8. c16]
+		a4. h16[ a]
+		g8[ fis e fis]
+		dis8. cis16 h4 %190
+		e4. d8
+		c[ e] a4~
+		a8[ g fis d]^\critnote
+		g[ a16 h] a8[ g]
+		fis4. g8 %195
+		fis4. g8
+		e[( fis)] g([ a)]
+		g4( fis)
+		g r
+		R2*3 %202
+		r4 g~
+		g fis
+		g fis8 fis %205
+		e4. e8
+		d4 r
+		R2*7 %214
+		g4 h %215
+		a d,
+		R2*10 %226
+		r8 e e e
+		a,16[ h cis dis] e[ fis gis e]
+		a8.[ h16] a[ gis fis e]
+		dis8 cis16[( h]) h'8 a %230
+		gis4 fis
+		r8 e e e
+		a4~ a16[ h a g!]
+		fis8[ a] d,[ e16 fis]
+		g4. e8~ %235
+		e a4 fis8~
+		fis[ e] dis?([ h')]
+		gis[( a16 gis)] a8 fis
+		fis4( eis)
+		fis r %240
+		R2*5 %245
+		r8 fis fis e!
+		dis8.([ e16)] fis4
+		r8 e e d
+		cis8.([ d16)] e4
+		R2*5 %254
+		r4 a8.[ g!16] %255
+		fis8[ gis] a4~
+		a gis8[ fis]
+		e4 a
+		d,8[ e fis gis]
+		a[ h cis a] %260
+		h[ a gis fis]
+		e4 a8 h
+		a4( gis)
+		a r
+		R2*8 %272
+		R2\fermataMarkup \bar "||" %273 finis
 	}
 }
 
@@ -241,6 +311,74 @@ ConfiteborAltoLyrics = \lyricmode {
 	_ _ _
 	_ _
 	_ _ ti -- bus se.
+	
+	Me -- %168
+	mor
+	er -- it in %170
+	sae -- cu --
+	lum,
+	
+	me -- %176
+	mor
+	er -- it in
+	sae -- cu --
+	lum, %180
+	
+	in %185
+	sae --
+	_
+	_ _
+	_
+	_ cu -- lum %190
+	te -- sta --
+	men -- _
+	
+	_ _
+	_ ti, %195
+	te -- sta --
+	men -- ti __
+	su --
+	i,
+	
+	me -- %203
+	mor
+	er -- it in %205
+	sae -- cu --
+	lum
+	
+	te -- sta -- %215
+	men -- ti.
+	
+	Vir -- tu -- tem %227
+	o -- _
+	_ _
+	_ pe -- rum su -- %230
+	o -- rum
+	an -- nun -- ti --
+	a --
+	_ _
+	_ _ %235
+	_ _
+	bit __
+	po -- pu -- lo
+	su --
+	o, %240
+	
+	an -- nun -- ti -- %246
+	a -- bit,
+	an -- nun -- ti --
+	a -- bit
+	
+	po -- %255
+	_ _
+	_
+	_ _
+	_
+	_ %260
+	_
+	_ pu -- lo
+	su --
+	o. %264 finis
 }
 
 % AltoNotes = {

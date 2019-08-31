@@ -125,6 +125,81 @@ ConfiteborSopranoNotes = {
 		e16.[ d32 e16 f] d16.[ c32 d16 e] c8 h16 a gis8. a16
 		a4 r r2 %145
 		R1*20 %165
+		\time 2/4 r4 e'~
+		e dis
+		e d8 d
+		cis4. cis8
+		h4 r %170
+		R2*7 %177
+		r4 h~
+		h ais
+		h g8 g %180
+		fis4. fis8
+		e4 r
+		r r8 h'
+		e,[ fis g a]
+		h[ c d8. e16] %185
+		c4. d16[ c]
+		h8[ a g a]
+		fis8. e16 d4^\critnote
+		R2
+		h'4. a8 %190
+		g[ h] e4~
+		e8[ d!] c4~
+		c8[ d16 e] d8[ c]
+		h[ c16 d] c8[ h]
+		a4. h8 %195
+		a4. h8
+		c([ d)] h([ c)]
+		a2
+		g4 r
+		R2*5 %204
+		r4 d'~ %205
+		d cis
+		d h8 h
+		a4. a8
+		g4 r
+		R2*6 %215
+		a4 d
+		h8([ cis)] d([ e)]
+		d4( cis)
+		d r
+		R2*4 %223
+		r8 a a a
+		d,16[ e fis gis] a[ h cis a] %225
+		d8.[ e16] d[ cis h a]
+		gis8 fis16([ e)] e'8 d
+		cis4 h
+		R2*2 %230
+		r8 h h h
+		e4~ e16[ fis e d]
+		cis8[ e] a,[ h16 cis]
+		d[ e fis e] d8[ cis]
+		h16[ a h8]~ h16[ e d e] %235
+		cis[ h cis8]~ cis16[ fis e fis]
+		dis?8[ cis] h4
+		eis8[( fis16 eis]) fis8 h,
+		a4( gis)
+		fis r %240
+		R2*4
+		r8 cis' cis h %245
+		ais8.([ h16)] cis4
+		r8 h h a
+		gis8.([ a16)] h4
+		R2*5 %253
+		r4 e8.[ d16]
+		cis8[ d] e4~ %255
+		e d8[ cis]
+		h[ cis] d4~
+		d cis
+		fis2
+		e %260
+		d~
+		d4 cis8 d
+		cis4( h)
+		a r
+		R2*8 %272
+		R2\fermataMarkup \bar "||" %273 finis
 	}
 }
 
@@ -231,6 +306,80 @@ ConfiteborSopranoLyrics = \lyricmode {
 	in sae -- _ _
 	_ _ _ cu -- lum sae -- cu --
 	li. %145
+	
+	Me -- %166
+	mor
+	er -- it in
+	sae -- cu --
+	lum, %170
+	
+	me -- %178
+	mor
+	er -- it in %180
+	sae -- cu --
+	lum,
+	in
+	sae --
+	_ %185
+	_ _
+	_
+	_ cu -- lum
+	
+	te -- sta -- %190
+	men -- _
+	_
+	_
+	_ _
+	_ ti, %195
+	te -- sta --
+	men -- ti __
+	su --
+	i,
+	
+	me -- %205
+	mor
+	er -- it in
+	sae -- cu --
+	lum
+	
+	te -- sta -- %216
+	men -- ti __
+	su --
+	i.
+	
+	Vir -- tu -- tem %224
+	o -- _ %225
+	_ _
+	_ pe -- rum su --
+	o -- rum
+	
+	an -- nun -- ti -- %231
+	a --
+	_ _
+	_ _
+	_ %235
+	_
+	_ bit
+	po -- pu -- lo
+	su --
+	o, %240
+	
+	an -- nun -- ti -- %245
+	a -- bit,
+	an -- nun -- ti --
+	a -- bit
+	
+	po -- %254
+	_ _ %255
+	_
+	_ _
+	_
+	_
+	_ %260
+	_
+	pu -- lo
+	su --
+	o. %264 finis
 }
 
 % SopranoNotes = {

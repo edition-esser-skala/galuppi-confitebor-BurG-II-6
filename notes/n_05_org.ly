@@ -174,7 +174,7 @@ ConfiteborOrgano = {
 		c4 fis8 a, h a g16 g' fis e
 		dis8 e h' h, e4\fE a \noBreak
 		e dis g8 a h h, %165
-		\time 2/4 e4 g \noBreak
+		\time 2/4 e4 g\pE \noBreak
 		a h
 		e, g
 		e fis
@@ -206,11 +206,11 @@ ConfiteborOrgano = {
 		d d' h g
 		c4 g
 		d' d,
-		g h
+		g\fE h
 		c d %200
 		g, h
 		g a
-		d, e
+		d, e\pE
 		c d
 		g, h %205
 		g a
@@ -218,18 +218,18 @@ ConfiteborOrgano = {
 		c d
 		g, r
 		R2*2 %211
-		r4 r8 g'
+		r4 r8 g'\fE
 		d'4 g,
 		d' d,
-		g g, %215
+		g\pE g, %215
 		d'8 e fis d
 		g4 d
 		a' a,
 		d r
 		R2*2 %221
-		r4 r8 d
+		r4 r8 d\fE
 		a'4 d,
-		a' a,
+		a' a,\pE
 		d cis %225
 		h r
 		e8 fis gis e
@@ -247,17 +247,17 @@ ConfiteborOrgano = {
 		cis' cis,
 		fis r %240
 		R2*2
-		r4 r8 fis
+		r4 r8 fis\fE
 		cis'4 fis,
-		cis' cis, %245
+		cis' cis,\pE %245
 		fis r
 		h, r
 		e r
 		a,! r
 		R2*2 %251
-		r4 r8 a
+		r4 r8 a\fE
 		e'4 a,
-		e' e,
+		e' e,\pE
 		a8 h cis a %255
 		d2
 		e
