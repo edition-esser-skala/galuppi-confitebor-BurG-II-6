@@ -566,13 +566,13 @@ UtDetIllisOrgano = {
 		d h e d cis fis h, e
 		a, a'\fE d, e a,4 cis\pE
 		d h e8 cis h a
-		h d e d cis d cis h %290
+		h dis? e d? cis d cis h %290
 		a4\fE a'8\pE d, e cis16 d e8 e,
 		a4 a'8\fE cis h e a, d,
 		e a, d gis, cis d e e,
 		a4 ais'8\pE fis h cis, d e
 		fis h\fE e, a d, e fis fis,\pE %295
-		h cis d e fis gis ais fis
+		h cis dis? e fis gis ais fis
 		h d,!16 e fis8 fis, h4 h'8\fE d
 		cis fis, h e, fis\pE e d cis
 		h d e d cis! h ais fis'
@@ -584,7 +584,36 @@ UtDetIllisOrgano = {
 }
 
 UtDetIllisBassFigures = \figuremode {
-	
+	r4 <6> q4. <_+>8 %274
+	r4. <6>8 r <_+> r <6> %275
+	<_+>2. <_+>4
+	r <6> q4. <_+>8
+	r4 <6> q2
+	<_+>2 r4. <6>8
+	r <_+> r <6> <_+>4. <\t>8 %280
+	<6>1
+	q2 q
+	r2 <6 5>4. <7 _+>8
+	r <6> <6 4> <5 _+> r2
+	r4 <_+> r4. <6\\>8 %285
+	<6>4 <6 _+> <6 4>8 <5+ _+> r4
+	<6> <_+>8 <\t> <6> r4 <_+>8
+	r4. <_+>8 r4 <6>
+	r2 <_+>8 <6> <6\\> <8>
+	<_+> <6> <_+> <\t> <6> r <6>4 %290
+	r2 <_+>8 <6> <_+>4
+	r4. <6>8 r <_+> r4
+	<_+>4. <6>8 q4 <_+>
+	r <6>8 <7 _+> r <6\\> <6> <6>16 <5>
+	<_+>2. <_+>4 %295
+	<_+>8 <6\\> <6> <_+> q4 <6>
+	<9>8 <6> <_+>4 <_!>4. <6>8
+	r <_+> r <6> <_+> <\t> <6> <6\\>
+	r <6> <6!> <6> <6\\> <6 4> <6 5> <7 _+>
+	<6>4 <_+>2. %300
+	<6>4. <7 _+>8 r4. <6>8
+	r <_+> r <6> <_+>2
+	r4 <_+> r2 %303 finis
 }
 
 % Organo = {

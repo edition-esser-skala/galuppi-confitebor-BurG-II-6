@@ -218,7 +218,7 @@ UtDetIllisViolinoII = {
 		R1
 		r2 h8 fis d' cis16 h %300
 		cis8 fis, e' d16 cis h8 fis d' cis16 h
-		cis8 h16 ais h cis32 d cis16 h ais8 fis' g fis16 e
+		cis8 h16 ais h cis32 d cis16 h ais8 d^\critnote e d16 cis
 		d8 cis16 h ais8. h16 h4 r\fermata \bar "||" %303 finis
 	}
 }
