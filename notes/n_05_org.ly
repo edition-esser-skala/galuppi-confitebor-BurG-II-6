@@ -545,6 +545,19 @@ ConfiteborBassFigures = \figuremode {
 	<_+>2 %273 finis
 }
 
+UtDetIllisOrgano = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \tempoUtDetIllis
+			\set Score.currentBarNumber = #274
+		\mvTr h'8\fE-\soloE fis d' cis16 h ais4 r8 fis
+	}
+}
+
+UtDetIllisBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -200,6 +200,15 @@ ConfiteborViolinoI = {
 	}
 }
 
+UtDetIllisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoUtDetIllis
+			\set Score.currentBarNumber = #274
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

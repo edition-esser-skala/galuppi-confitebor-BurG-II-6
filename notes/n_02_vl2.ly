@@ -187,3 +187,12 @@ ConfiteborViolinoII = {
 		a r\fermata \bar "||" %273 finis
 	}
 }
+
+UtDetIllisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoUtDetIllis
+			\set Score.currentBarNumber = #274
+		
+	}
+}

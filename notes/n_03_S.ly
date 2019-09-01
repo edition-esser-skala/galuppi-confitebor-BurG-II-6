@@ -382,6 +382,19 @@ ConfiteborSopranoLyrics = \lyricmode {
 	o. %264 finis
 }
 
+UtDetIllisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoUtDetIllis
+			\set Score.currentBarNumber = #274
+		
+	}
+}
+
+UtDetIllisSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
