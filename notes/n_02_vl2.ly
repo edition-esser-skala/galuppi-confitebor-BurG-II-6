@@ -193,6 +193,32 @@ UtDetIllisViolinoII = {
 		\clef treble
 		\key h \minor \time 4/4 \tempoUtDetIllis
 			\set Score.currentBarNumber = #274
-		
+		R1
+		h'8\fE fis d' cis16 h cis8 h16 ais h cis32 d cis16 h %275
+		ais8 d e d16 cis d8 cis16 h ais8. h16
+		h4 r r2
+		R1
+		r2 h8 fis d' cis16 h
+		cis8 h16 ais h cis32 d cis16 h ais4 r %280
+		r r8 d e d16 cis d8 r
+		R1*2
+		r2 r8 d e d16 cis
+		d8 cis16 h ais8. h16 h4 r %285
+		R1*2
+		r8 cis d cis16 h cis4 r
+		R1*2 %290
+		r16 cis a h cis8 r r2
+		r8 a16 h cis8 h16 a h8 a16 gis a h32 cis h16 a
+		gis8 cis d cis16 h cis8 h16 a gis8. a16
+		a4 r r2
+		r8 fis' g fis16 e fis8 e16 d cis8. h16 %295
+		h4 r r2
+		r r8 h16 cis d8 cis16 h
+		cis8 h16 ais h cis32 d cis16 h ais4 r
+		R1
+		r2 h8 fis d' cis16 h %300
+		cis8 fis, e' d16 cis h8 fis d' cis16 h
+		cis8 h16 ais h cis32 d cis16 h ais8 fis' g fis16 e
+		d8 cis16 h ais8. h16 h4 r\fermata \bar "||" %303 finis
 	}
 }
