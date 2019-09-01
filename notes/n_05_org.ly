@@ -557,24 +557,24 @@ UtDetIllisOrgano = {
 		h h'16 cis d8 cis16 h a!8 fis g e
 		fis4 r8 fis\fE h4 h,8 d
 		cis fis h, e fis4 r8 e\pE %280
-		d4 r8 h e a, d h
+		d4 r8 h\fE e a, d h\pE
 		g' e a16 h cis a fis8 d g16 a h g
 		e8 d cis h ais4 ais'8 fis
 		h e, fis fis, h h'\fE e, a
 		d, e fis fis, h4 h'8\pE gis %285
 		a fis eis fis cis' cis, fis e?
 		d h e d cis fis h, e
-		a, a' d, e a,4 cis
+		a, a'\fE d, e a,4 cis\pE
 		d h e8 cis h a
 		h d e d cis d cis h %290
-		a4 a'8 d, e cis16 d e8 e,
+		a4\fE a'8\pE d, e cis16 d e8 e,
 		a4 a'8\fE cis h e a, d,
 		e a, d gis, cis d e e,
 		a4 ais'8\pE fis h cis, d e
-		fis h e, a d, e fis fis, %295
+		fis h\fE e, a d, e fis fis,\pE %295
 		h cis d e fis gis ais fis
-		h d,!16 e fis8 fis, h4 h'8 d
-		cis fis, h e, fis e d cis
+		h d,!16 e fis8 fis, h4 h'8\fE d
+		cis fis, h e, fis\pE e d cis
 		h d e d cis! h ais fis'
 		d e fis fis, h4 r8 h'\fE %300
 		ais4 r8 fis h4 h,8 d
