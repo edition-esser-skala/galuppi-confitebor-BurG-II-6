@@ -112,7 +112,7 @@ ConfiteborAltoNotes = {
 		r8 a gis16([ fis)] e d c([ h)] a8 r4 %145
 		r8 c' h16([ a)] g f e([ d)] c8 r4
 		r2 r8 g' g a16 h
-		c8 a c, a' d,16 c' h a32([ g)] g8.( a16)
+		c8 a c, a' d,16 c' h a32([ g)] fis8.( g16)
 		g4 r r8 h a g
 		fis h, c'16([ h)] a8 g16([ a)] fis([ g)] e8. dis16 %150
 		dis?4 r r h'8 g

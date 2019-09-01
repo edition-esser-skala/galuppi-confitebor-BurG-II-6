@@ -61,7 +61,7 @@ ConfiteborViolinoI = {
 		fis d g e a fis \tuplet 3/2 8 { h[ a g] }
 		a fis g e \tuplet 3/2 8 { fis[ e d] } g e
 		a fis \tuplet 3/2 8 { h[ a g] a g fis g[ fis e] } %80
-		fis8 d32 e fis g a8 f32 g a h
+		fis8 d32 e fis g a8 fis32 g a h
 		c4~ c16 c h a \noBreak
 		h a g h a g fis a
 		\time 3/4 \tempoMagnaOpera g4 r r \noBreak

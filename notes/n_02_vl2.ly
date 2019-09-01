@@ -25,7 +25,7 @@ ConfiteborViolinoII = {
 		g d g,4
 		R2*6 %20
 		r8 d'32 e fis g a8 d,
-		r d' d c!
+		r d' d cis?
 		d4 r
 		R2*3 %26
 		g,16 d e fis g8 g
@@ -59,7 +59,7 @@ ConfiteborViolinoII = {
 		fis16 d g e a fis \tuplet 3/2 8 { h[ a g] }
 		a fis g e \tuplet 3/2 8 { fis[ e d] } g e
 		a fis \tuplet 3/2 8 { h[ a g] a g fis g[ fis e] } %80
-		fis8 d32 e fis g a8 f32 g a h
+		fis8 d32 e fis g a8 fis32 g a h
 		c8 a fis a \noBreak
 		d, g e fis
 		\time 3/4 \tempoMagnaOpera g4 r r \noBreak
