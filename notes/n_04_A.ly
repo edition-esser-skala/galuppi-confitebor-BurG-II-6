@@ -381,6 +381,19 @@ ConfiteborAltoLyrics = \lyricmode {
 	o. %264 finis
 }
 
+FideliaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/8 \autoBeamOff \tempoFidelia
+			\set Score.currentBarNumber = #304
+		
+	}
+}
+
+FideliaAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

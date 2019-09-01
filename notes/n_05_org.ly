@@ -616,6 +616,19 @@ UtDetIllisBassFigures = \figuremode {
 	r4 <_+> r2 %303 finis
 }
 
+FideliaOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/8 \tempoFidelia
+			\set Score.currentBarNumber = #304
+		d8\pE-\soloE fis cis
+	}
+}
+
+FideliaBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

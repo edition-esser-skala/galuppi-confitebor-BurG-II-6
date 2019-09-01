@@ -222,3 +222,12 @@ UtDetIllisViolinoII = {
 		d8 cis16 h ais8. h16 h4 r\fermata \bar "||" %303 finis
 	}
 }
+
+FideliaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/8 \tempoFidelia
+			\set Score.currentBarNumber = #304
+		
+	}
+}

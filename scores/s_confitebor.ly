@@ -63,9 +63,48 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2 UT DET ILLIS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\UtDetIllisViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\UtDetIllisViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \UtDetIllisSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \UtDetIllisSopranoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\UtDetIllisOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\UtDetIllisBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2 UT DET ILLIS"
+			movement = "3 FIDELIA OMNIA MANDATA"
 		}
 		\score {
 			<<
@@ -73,33 +112,39 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\UtDetIllisViolinoI
+							\FideliaViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\UtDetIllisViolinoII
+							\FideliaViolinoII
 						}
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \UtDetIllisSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \FideliaSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \UtDetIllisSopranoLyrics
+					\new Lyrics \lyricsto Soprano \FideliaSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \FideliaAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \FideliaAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\UtDetIllisOrgano
+						\FideliaOrgano
 					}
 				>>
 				\new FiguredBass {
-					\UtDetIllisBassFigures
+					\FideliaBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4. = 90 }
 		}
 	}
 }

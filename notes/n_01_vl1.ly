@@ -235,6 +235,15 @@ UtDetIllisViolinoI = {
 	}
 }
 
+FideliaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/8 \tempoFidelia
+			\set Score.currentBarNumber = #304
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

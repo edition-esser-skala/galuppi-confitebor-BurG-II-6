@@ -202,6 +202,7 @@ tempoConfitebor = \tempoMarkup "Allegro"
 	tempoMagnaOpera = \tempoMarkup "Largo"
 	tempoConfessio = \tempoMarkup "[Allegro]"
 tempoUtDetIllis = \tempoMarkup "Vivace"
+tempoFidelia = \tempoMarkup "[Tempo deest]"
 
 
 

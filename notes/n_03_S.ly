@@ -444,6 +444,19 @@ UtDetIllisSopranoLyrics = \lyricmode {
 	et iu -- di -- ci -- um. %300 finis
 }
 
+FideliaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/8 \autoBeamOff \tempoFidelia
+			\set Score.currentBarNumber = #304
+		
+	}
+}
+
+FideliaSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
