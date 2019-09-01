@@ -387,12 +387,61 @@ UtDetIllisSopranoNotes = {
 		\clef treble
 		\key h \minor \time 4/4 \autoBeamOff \tempoUtDetIllis
 			\set Score.currentBarNumber = #274
-		
+		R1*3 %276
+		r4 h'8 d cis fis,16 fis e'8 d16([ cis)]
+		d8 d16 e fis8 e16([ d]) cis8 d h8. ais16
+		ais4 r r2
+		r r8 ais16 h cis8 fis, %280
+		r d'16 e fis8 h, r4 r8 d
+		e16([ fis)] g([ e)] cis4 d16[ e fis d] h4~
+		h16[ d cis h] e4~ e16[ cis h cis] fis,[ fis' e fis]
+		d[ e32 d e16] cis d8([ cis16)] h h4 r
+		r2 r4 d8 cis16 h %285
+		cis8 h16 a gis8 a16 fis fis8 eis r16 a[ h cis]
+		d[ e fis d] h[ gis a h] cis[ a h cis] d[ h cis d]
+		e a, a8 r4 r16 e'[ d e] cis[ a gis a]
+		fis[ fis' e fis] d[ h a h] gis[ a a h] h[ cis cis dis?]
+		dis32[ e fis dis h cis dis h] gis[ a h gis e8]~ e16[ fis32 gis a h cis d?] e16 a, a8 %290
+		r4 e'8 d16 cis h[( cis32 h e16]) a, gis8. a16
+		a4 r r2
+		R1
+		r4 cis8 fis16 e d8 cis16 d h8 cis16 h
+		ais8 fis r4 r cis'8 fis,16 cis' %295
+		dis([ cis h ais] h8) cis16 h ais8 h cis4~
+		cis16[ d32 cis d16 h] ais8. h16 h4 r
+		r2 fis8[ gis16 ais] h[ cis d e]
+		fis[ d c h] c8[ d16 h] e4. d16 cis?
+		fis8 h, ais8. h16 h4 r %300
+		R1*2
+		R1\fermataMarkup \bar "||" %303 finis
 	}
 }
 
 UtDetIllisSopranoLyrics = \lyricmode {
+	Ut det il -- lis hae -- re -- di -- %277
+	ta -- tem, hae -- re -- di -- ta -- tem gen -- ti --
+	um,
+	ut det il -- lis, %280
+	ut det il -- lis hae --
+	re -- di -- ta -- _ _
+	_ _
+	_ tem gen -- ti -- um.
+	O -- pe -- ra, %285
+	o -- pe -- ra ma -- nu -- um e -- ius ve --
+	_ _ _ _
+	_ ri -- tas, ve -- _
+	_ _ _ _
+	_ _ _ ri -- tas, %290
+	ve -- ri -- tas et __ iu -- di -- ci --
+	um,
 	
+	o -- pe -- ra, o -- pe -- ra ma -- nu -- um
+	e -- ius ve -- ri -- tas, %295
+	ve -- ri -- tas et iu -- di --
+	_ ci -- um,
+	ve -- _
+	_ _ _ ri -- tas
+	et iu -- di -- ci -- um. %300 finis
 }
 
 % SopranoNotes = {
