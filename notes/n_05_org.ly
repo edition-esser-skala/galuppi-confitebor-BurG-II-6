@@ -670,7 +670,7 @@ FideliaOrgano = {
 		a %350
 		h4 g8
 		a cis a
-		d g, a,
+		d a^\critnote a,
 		d4 d8
 		g r r %355
 		fis r r

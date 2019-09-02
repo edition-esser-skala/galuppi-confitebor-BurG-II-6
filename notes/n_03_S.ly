@@ -449,12 +449,91 @@ FideliaSopranoNotes = {
 		\clef treble
 		\key d \major \time 3/8 \autoBeamOff \tempoFidelia
 			\set Score.currentBarNumber = #304
-		
+		R4.
+		r8 r \mvTr d'\pE^\soloE %305
+		cis8. h16 a8
+		R4.*7 %313
+		r8 r d
+		d c c %315
+		c8. h16 h8
+		d c h
+		h4 a8
+		R4.*5 %323
+		r8 d d
+		d4.~ %325
+		d~
+		d~
+		d16[ e d c h a]
+		h[ a] g4
+		r8 e' c %330
+		d h g
+		e'16([ d)] c([ d)] e8
+		d8. g,16 g8
+		r r e'
+		d8. e16 c8 %335
+		c?8. h16 h8
+		R4.*6 %342
+		r8 e a,
+		R4.
+		fis8 h8. a!16 %345
+		g8.[ a16 h8]~
+		h[ a g]
+		fis16[ g a8] d,
+		d' h16([ a)] h8
+		e[ cis!16 h cis8] %350
+		fis[ d16 cis d e]
+		cis8.[ d16 e cis]
+		d[ e] cis4
+		d r8
+		R4.*5 %359
+		d8 d e %360
+		a,[ h16 cis d8]~
+		d16[ e] cis4
+		d r8
+		R4.*8 %371
+		R4.\fermataMarkup \bar "||" %372 finis
 	}
 }
 
 FideliaSopranoLyrics = \lyricmode {
+	Fi -- %305
+	de -- li -- a,
 	
+	fi -- %314
+	de -- li -- a %315
+	o -- mni -- a
+	man -- da -- ta
+	e -- ius,
+	
+	con -- fir -- %324
+	ma -- %325
+	
+	_ ta, %329
+	con -- fir -- %330
+	ma -- ta in
+	sae -- cu -- lum
+	sae -- cu -- li,
+	in
+	sae -- cu -- lum %335
+	sae -- cu -- li,
+	
+	fa -- cta %343
+	
+	in ve -- ri -- %345
+	ta --
+	
+	_ te
+	et ae -- qui --
+	ta -- %350
+	_
+	_
+	_ _
+	te,
+	
+	et ae -- qui -- %360
+	ta --
+	_
+	te. %363 finis
 }
 
 % SopranoNotes = {
