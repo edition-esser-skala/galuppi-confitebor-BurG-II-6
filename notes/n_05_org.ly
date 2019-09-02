@@ -765,6 +765,19 @@ FideliaBassFigures = \figuremode {
 	r %372 finis
 }
 
+RedemptionemOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \tempoRedemptionem
+			\set Score.currentBarNumber = #373
+		\mvTr e4.\pE-\soloE fis8 g g16 fis g8 e
+	}
+}
+
+RedemptionemBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

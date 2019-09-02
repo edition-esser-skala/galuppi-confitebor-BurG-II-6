@@ -475,6 +475,19 @@ FideliaAltoLyrics = \lyricmode {
 	te. %363 finis
 }
 
+RedemptionemAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \autoBeamOff \tempoRedemptionem
+			\set Score.currentBarNumber = #373
+		
+	}
+}
+
+RedemptionemAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

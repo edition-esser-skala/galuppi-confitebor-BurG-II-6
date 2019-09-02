@@ -275,3 +275,12 @@ FideliaViolinoII = {
 		d8 r r\fermata \bar "||" %372 finis
 	}
 }
+
+RedemptionemViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoRedemptionem
+			\set Score.currentBarNumber = #373
+		
+	}
+}

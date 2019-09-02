@@ -102,9 +102,54 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3 FIDELIA OMNIA MANDATA"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\FideliaViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\FideliaViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \FideliaSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \FideliaSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \FideliaAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \FideliaAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\FideliaOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\FideliaBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3 FIDELIA OMNIA MANDATA"
+			movement = "4 REDEMPTIONEM MISIT"
 		}
 		\score {
 			<<
@@ -112,39 +157,33 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\FideliaViolinoI
+							\RedemptionemViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\FideliaViolinoII
+							\RedemptionemViolinoII
 						}
 					>>
 				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \FideliaSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \FideliaSopranoLyrics
-					
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \FideliaAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \RedemptionemAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \FideliaAltoLyrics
+					\new Lyrics \lyricsto Alto \RedemptionemAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\FideliaOrgano
+						\RedemptionemOrgano
 					}
 				>>
 				\new FiguredBass {
-					\FideliaBassFigures
+					\RedemptionemBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4. = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

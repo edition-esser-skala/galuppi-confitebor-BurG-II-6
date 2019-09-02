@@ -288,6 +288,15 @@ FideliaViolinoI = {
 	}
 }
 
+RedemptionemViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoRedemptionem
+			\set Score.currentBarNumber = #373
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
