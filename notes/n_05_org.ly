@@ -621,7 +621,75 @@ FideliaOrgano = {
 		\clef bass
 		\key d \major \time 3/8 \tempoFidelia
 			\set Score.currentBarNumber = #304
-		d8\pE-\soloE fis cis
+		\mvTr d8\pE-\soloE fis cis
+		d fis g %305
+		a h cis
+		d4 d,8
+		g r r
+		fis r r
+		g fis e %310
+		d cis h
+		a4 a8
+		h4 cis8
+		d4 d8
+		e4 fis8 %315
+		g4.
+		h,8 c g
+		d'8. e16 fis8
+		g g, g'
+		c r r %320
+		h r r
+		c h a
+		g fis e
+		d4 c8
+		h g g' %325
+		fis d fis
+		g g, g'
+		fis d fis
+		g, g'8. f16
+		e8 c c' %330
+		h g h
+		c c, c'
+		h g h
+		c, e c
+		d4 a8 %335
+		e'4.
+		a4 a,8
+		d r r
+		c r r
+		d c h %340
+		a' gis fis
+		e4 r8
+		a,4 r8
+		fis'8 ais fis
+		h d, h %345
+		e4.
+		a,
+		d
+		g
+		a %350
+		h4 g8
+		a cis a
+		d g, a,
+		d4 d8
+		g r r %355
+		fis r r
+		g fis e
+		d cis h
+		a4.
+		h4 cis8 %360
+		d4.
+		g8 a a,
+		d4 r8
+		g r r
+		fis r r %365
+		g fis e
+		d cis h
+		a4.
+		h4 cis8
+		d4. %370
+		g8 a a,
+		d r r\fermata \bar "||" %372 finis
 	}
 }
 
