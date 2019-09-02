@@ -386,12 +386,93 @@ FideliaAltoNotes = {
 		\clef treble
 		\key d \major \time 3/8 \autoBeamOff \tempoFidelia
 			\set Score.currentBarNumber = #304
-		
+		r8 r \mvTr a'\pE^\soloE
+		fis8. e16 d8 %305
+		R4.*6 %311
+		r8 r a'
+		a g g
+		g8. fis16 fis8
+		R4.*2 %316
+		h8 a g
+		g4 fis8
+		R4.*6 %324
+		r8 h g %325
+		a fis d
+		h'16([ a)] g([ a)] h8
+		a8. d,16 d8
+		r g g
+		g4.~ %330
+		g~
+		g~
+		g16[ a g f e d]
+		e[ d] c8 c'
+		h8. c?16 a8 %335
+		a8. gis16 gis8
+		R4.*5 %341
+		r8 h e,
+		R4.
+		cis!8 fis8. e16
+		d8.[ e16 fis8]~ %345
+		fis[ e d]
+		cis16[ d e8] a,
+		a' fis16([ e)] fis8
+		fis[ d g]~
+		g[ e a]~ %350
+		a[ fis h]
+		a8.[ h16 a g]
+		fis[ g] e4
+		d r8
+		R4.*4 %358
+		e8 e fis
+		g4.~ %360
+		g8[ fis16 e fis8]~
+		fis16[ g] e4
+		d r8
+		R4.*8 %371
+		R4.\fermataMarkup \bar "||" %372 finis
 	}
 }
 
 FideliaAltoLyrics = \lyricmode {
+	Fi -- %304
+	de -- li -- a, %305
 	
+	fi -- %312
+	de -- li -- a
+	o -- mni -- a
+	
+	[man -- da -- ta %317
+	e -- ius,]
+	
+	con -- fir --
+	ma -- ta in
+	sae -- cu -- lum
+	sae -- cu -- li,
+	con -- fir --
+	ma --
+	
+	_ ta in
+	sae -- cu -- lum
+	sae -- cu -- li,
+	
+	fa -- cta
+	
+	in ve -- ri --
+	ta --
+	
+	_ te
+	et ae -- qui --
+	ta --
+	
+	_
+	_ _
+	te,
+	
+	et ae -- qui --
+	ta --
+	
+	_
+	te. %363 finis
 }
 
 % AltoNotes = {
