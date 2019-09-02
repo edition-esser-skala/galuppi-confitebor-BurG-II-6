@@ -240,7 +240,51 @@ FideliaViolinoI = {
 		\clef treble
 		\key d \major \time 3/8 \tempoFidelia
 			\set Score.currentBarNumber = #304
-		
+		R4.*2 %305
+		r8 r a''\fE
+		fis16( d cis d a' d,)
+		h'( d, cis d h' e,)
+		a( d, cis d a' d,)
+		h' g a fis g e %310
+		fis d e cis d h
+		e d cis d e8
+		R4.*5 %317
+		r8 r d
+		h16( g fis g d' g,)
+		e'( g, fis g e' a,) %320
+		d( g, fis g d' g,)
+		e' c d h c a
+		h g a fis g e
+		a g fis g a8
+		R4.*11 %335
+		r8 r e'
+		c16( a gis a e' a,)
+		f'( a, gis a f' a,)
+		e'( a, gis a e' a,)
+		f' d e c d h %340
+		c a h gis a fis!
+		h a gis a h8
+		cis!8 r r
+		R4.*9 %352
+		r8 r a'
+		fis16( d cis d a' d,)
+		h'( d, cis d h' d,) %355
+		a'( d, cis d a' d,)
+		h' g a fis g e
+		fis d e cis d h
+		e8 r r
+		R4.*2 %361
+		r8 r a
+		fis16( d cis d a' d,)
+		h'( d, cis d h' d,)
+		a'( d, cis d a' d,) %365
+		h' g a fis g e
+		fis d e cis d h
+		e8 e fis
+		g4.~
+		g8 fis16 e fis8~
+		fis16 g e4\trill
+		d8 r r\fermata \bar "||"
 	}
 }
 

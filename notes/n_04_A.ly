@@ -444,32 +444,32 @@ FideliaAltoLyrics = \lyricmode {
 	[man -- da -- ta %317
 	e -- ius,]
 	
-	con -- fir --
+	con -- fir -- %325
 	ma -- ta in
 	sae -- cu -- lum
 	sae -- cu -- li,
 	con -- fir --
-	ma --
+	ma -- %330
 	
-	_ ta in
-	sae -- cu -- lum
+	_ ta in %334
+	sae -- cu -- lum %335
 	sae -- cu -- li,
 	
-	fa -- cta
+	fa -- cta %342
 	
 	in ve -- ri --
-	ta --
+	ta -- %345
 	
 	_ te
 	et ae -- qui --
 	ta --
 	
-	_
+	_ %352
 	_ _
 	te,
 	
-	et ae -- qui --
-	ta --
+	et ae -- qui -- %359
+	ta -- %360
 	
 	_
 	te. %363 finis

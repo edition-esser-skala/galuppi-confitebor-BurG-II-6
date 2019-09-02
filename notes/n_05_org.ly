@@ -624,24 +624,24 @@ FideliaOrgano = {
 		\mvTr d8\pE-\soloE fis cis
 		d fis g %305
 		a h cis
-		d4 d,8
+		d4\fE d,8
 		g r r
 		fis r r
 		g fis e %310
 		d cis h
-		a4 a8
+		a4 a8\pE
 		h4 cis8
 		d4 d8
 		e4 fis8 %315
 		g4.
 		h,8 c g
 		d'8. e16 fis8
-		g g, g'
+		g\fE g, g'
 		c r r %320
 		h r r
 		c h a
 		g fis e
-		d4 c8
+		d4 c8\pE
 		h g g' %325
 		fis d fis
 		g g, g'
@@ -654,13 +654,13 @@ FideliaOrgano = {
 		c, e c
 		d4 a8 %335
 		e'4.
-		a4 a,8
+		a4\fE a,8
 		d r r
 		c r r
 		d c h %340
-		a' gis fis
+		a' gis fis!
 		e4 r8
-		a,4 r8
+		a,4\pE r8
 		fis'8 ais fis
 		h d, h %345
 		e4.
@@ -671,16 +671,16 @@ FideliaOrgano = {
 		h4 g8
 		a cis a
 		d a^\critnote a,
-		d4 d8
+		d4\fE d8
 		g r r %355
 		fis r r
 		g fis e
 		d cis h
 		a4.
-		h4 cis8 %360
+		h4\pE cis8 %360
 		d4.
 		g8 a a,
-		d4 r8
+		d4\fE r8
 		g r r
 		fis r r %365
 		g fis e
