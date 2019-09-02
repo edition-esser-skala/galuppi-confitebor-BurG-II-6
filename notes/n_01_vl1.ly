@@ -282,9 +282,9 @@ FideliaViolinoI = {
 		fis d e cis d h
 		e8 e fis
 		g4.~
-		g8 fis16 e fis8~
+		g8 fis16 e fis8~ %370
 		fis16 g e4\trill
-		d8 r r\fermata \bar "||"
+		d8 r r\fermata \bar "||" %372 finis
 	}
 }
 
