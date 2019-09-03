@@ -616,7 +616,7 @@ SanctumSopranoNotes = {
 		d8[ c h]
 		e4.~
 		e16[ d c h a g]
-		fis8 g8. g16 %485
+		fis8 g8. a16 %485
 		g8([ fis8.)] e16
 		e8 r r
 		R4.*3 %490

@@ -533,12 +533,208 @@ SanctumAltoNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoSanctum
 			\set Score.currentBarNumber = #394
-		
+		\mvTr e2\pE^\soloE e
+		R1 %395
+		r2 e
+		e r
+		r4 r8 h' h8. a16 a4
+		R1
+		r2 a %400
+		a r
+		\time 2/4 \tempoSanctumB a4 gis
+		R2*2
+		a4 a %405
+		a8. gis16 gis4
+		c c
+		c8. h16 h4
+		R2*3 %411
+		g16[ a g f] e[ g f e]
+		f[ g f e] d[ f e d]
+		e8[ f] g4
+		R2 %415
+		g16[ a g f] e[ g f e]
+		f[ g f e] d[ f e d]
+		e8[ fis] g4
+		g( fis)
+		g r %420
+		R2
+		h16[ c h a] g[ h a g]
+		a[ h a g] fis[ a g fis]
+		g4 d
+		R2 %425
+		h'16[ c h a] g[ h a g]
+		a[ h a g] fis[ a g fis]
+		g4 fis
+		e2
+		\time 4/4 \tempoSanctumC fis4 r r2 %430
+		r r4 fis
+		h8 a16 g fis8 h g8. fis16 e4
+		R1*2
+		r4 d2 c4 %435
+		f2. e4
+		a4. f8 d4 g16.[ f32 e16 d32 c]
+		e4 d8. c16 c4 c'~
+		c h r a~
+		a g r f~ %440
+		f e d4. c8
+		\time 3/8 \tempoSanctumD c8 r r
+		R4.*3 %445
+		r8 g' f
+		e8.[ f16 d e]
+		c8[ c' h]
+		a8.[ h16 g a]
+		f8 f e %450
+		e4 d8
+		R4.*8 %459
+		r8 h g %460
+		d'([ e)] fis
+		g16([ fis g a)] h([ cis)]
+		d8. d,16 d8
+		R4.
+		r8 d' c %465
+		h8.[ c16 a h]
+		g[ fis g a fis g]
+		e8 fis g
+		g4 fis8
+		R4.*5 %474
+		r8 r a %475
+		h8. a16 h8
+		c g r
+		R4.*2
+		r8 f4~ %480
+		f8 e d
+		g4.~
+		g8[ f e]
+		a4.~
+		a8 g8. fis16 %485
+		g([ e dis8.)] e16
+		e8 r r
+		R4.*2
+		r8 h' a %490
+		g4.~
+		g8 a16([ h)] c([ a)]
+		fis?4.~
+		fis8[ g16 a h g]
+		\once \tieDashed e4.~ %495
+		e8[ fis16 g a fis]
+		dis4.
+		e16[ dis e8 fis]
+		g8.^\critnote fis16 e8~
+		e16([ fis)] dis8. e16 %500
+		e8 r r
+		R4.*2
+		r8 fis fis
+		g fis r %505
+		R4.
+		r8 dis dis
+		e16([ dis)] e8 fis
+		g8. fis16 e8~
+		e16([ fis)] dis8. e16 %510
+		e8 r r
+		R4.*6 %517
+		R4.\fermataMarkup \bar "||" %518 finis
 	}
 }
 
 SanctumAltoLyrics = \lyricmode {
+	San -- ctum, %394
+	%395
+	san --
+	ctum,
+	ter -- ri -- bi -- le,
 	
+	san -- %400
+	ctum,
+	san -- ctum
+	
+	et ter -- %405
+	ri -- bi -- le,
+	et ter --
+	ri -- bi -- le
+	
+	no -- _ %412
+	_ _
+	_ men,
+	%415
+	no -- _
+	_ _
+	_ men
+	e --
+	ius, %420
+	
+	no -- _
+	_ _
+	_ men,
+	%425
+	no -- _
+	_ _
+	_ men
+	e --
+	ius. %430
+	I --
+	ni -- ti -- um sa -- pi -- en -- ti -- ae
+	
+	ti -- mor, %435
+	ti -- mor
+	Do -- _ _ _
+	_ _ mi -- ni, ti --
+	mor, ti --
+	mor, ti -- %440
+	mor Do -- mi --
+	ni,
+	
+	fa -- ci -- %446
+	en --
+	_
+	_
+	_ ti -- bus %450
+	e -- um,
+	
+	in -- tel -- %460
+	le -- ctus
+	bo -- nus
+	o -- mni -- bus
+	
+	fa -- ci -- %465
+	en --
+	_
+	_ ti -- bus
+	e -- um:
+	
+	Lau -- %475
+	da -- ti -- o
+	e -- ius
+	
+	ma -- %480
+	net in
+	sae --
+	
+	_
+	cu -- lum %485
+	sae -- cu --
+	li,
+	
+	ma -- net, %490
+	ma --
+	net in
+	sae --
+	
+	_ %495
+	
+	_
+	_
+	_ cu -- lum __
+	sae -- cu -- %500
+	li,
+	
+	ma -- net, %504
+	ma -- net, %505
+	
+	ma -- net,
+	ma -- net in
+	sae -- cu -- lum __
+	sae -- cu -- %510
+	li. %511 finis
 }
 
 % AltoNotes = {
