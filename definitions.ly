@@ -205,6 +205,9 @@ tempoUtDetIllis = \tempoMarkup "Vivace"
 tempoFidelia = \tempoMarkup "[Tempo deest]"
 tempoRedemptionem = \tempoMarkup "Vivace"
 tempoSanctum = \tempoMarkup "Grave"
+	tempoSanctumB = \tempoMarkup "Presto"
+	tempoSanctumC = \tempoMarkup "Adagio"
+	tempoSanctumD = \tempoMarkup "[Allegro]"
 
 
 
