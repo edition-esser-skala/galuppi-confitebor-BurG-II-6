@@ -318,7 +318,87 @@ SanctumViolinoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoSanctum
 			\set Score.currentBarNumber = #394
-		
+		R1
+		c'8\fE e c g e' g e c %395
+		g' c g e c g r4
+		e'8\pE g e c r2
+		R1
+		a8\fE c a e c' e c a
+		e' a e c a e r4 \noBreak %400
+		c'8\pE e c a e' a e c
+		\time 2/4 \tempoSanctumB R2 \noBreak
+		e16\fE f e d c e d c
+		d e d c h d c h
+		c4 r %405
+		R2*4
+		g'16 a g f e g f e %410
+		f g f e d f e d
+		e4 r
+		R2
+		g16 a g f e g f e
+		f g f e d f e d %415
+		e8 f g4
+		R2*3
+		d16 e d c h d c h %420
+		c d c h a c h a
+		h4 r
+		R2
+		d16 e d c h d c h
+		c d c h a c h a %425
+		h8 c d4
+		R2*3
+		\time 4/4 \tempoSanctumC d8 fis d a fis' a fis d \noBreak %430
+		a' d a fis d a r4
+		R1
+		r2 r8 e' e e
+		f! d d d e f g4
+		f4. f8 e4 r %435
+		R1*2
+		r2 r8 g\pE e4
+		r8 g d4 r8 g c,4^\critnote
+		r8 g' g, g' a g f4~ \noBreak %440
+		f e d2
+		\time 3/8 \tempoSanctumD c8 r r\noBreak
+		R4.*9 %451
+		r16 g'\fE e g c, e
+		d8 r r
+		r16 a' fis a d, fis
+		g8 r r %455
+		r16 d' a d fis, a
+		g8 fis e
+		fis16 d e fis g a
+		h c a8. g16
+		g8 r r %460
+		R4.*9 %469
+		r16 d h d g, h %470
+		a8 r r
+		r16 e' cis e a, cis
+		d8 r r
+		R4.*3 %476
+		r16 g e g c, e
+		d8 r r
+		R4.*8 %486
+		r16 h' g h e, g
+		fis8 r r
+		r16 c' a c fis, a
+		dis,8 r r %490
+		R4.*10 %500
+		r16 h' g h e, g
+		fis8 r r
+		r16 c' a c fis, a
+		dis,8 r r
+		r fis fis %505
+		g16 h g h e, g
+		fis8 r r
+		R4.*3 %510
+		r16 h g h e, g
+		fis8 r r
+		r16 c' a c fis, a
+		dis,8 fis? fis
+		g16 fis g8 a %515
+		h e, a
+		g fis8. e16
+		e8 r r\fermata \bar "||" %518 finis
 	}
 }
 

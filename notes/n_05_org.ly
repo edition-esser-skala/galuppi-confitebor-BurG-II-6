@@ -824,46 +824,46 @@ SanctumOrgano = {
 		\key c \major \time 4/4 \tempoSanctum
 			\set Score.currentBarNumber = #394
 		\mvTr c1\pE-\soloE
-		c4 r c r %395
-		c r c2~
+		c4\fE r c r %395
+		c r c2~\pE
 		c c'
 		h a
-		a,4 r a r
-		a r a2~ \noBreak %400
+		a,4\fE r a r
+		a r a2~\pE \noBreak %400
 		a a4 r
 		\time 2/4 \tempoSanctumB a'4 e \noBreak
-		c a'
+		c\fE a'
 		d, e
-		a, c %405
+		a, c\pE %405
 		d e
 		a4. e8
 		f4 g
 		c,2
-		e4 c' %410
+		e4\fE c' %410
 		f, g
-		c, a'
+		c, a'\pE
 		d, g
-		c, c'
+		c, c'\fE
 		f, g %415
-		c, c'
+		c, c'\pE
 		f, g
 		c, g
 		c d
-		g, e' %420
+		g, e'\fE %420
 		c d
-		g, g'
+		g, g'\pE
 		c, d
-		g, g'
+		g, g'\fE
 		c, d %425
-		g, g'
+		g, g'\pE
 		c, d
 		g, d' \noBreak
 		g, a
-		\time 4/4 \tempoSanctumC d4 r d r \noBreak %430
-		d r d d
+		\time 4/4 \tempoSanctumC d4 r d\fE r \noBreak %430
+		d r d d\pE
 		dis h e4. fis8
-		gis4 e a,8 a' a a
-		d, g f! g c, d e c
+		gis4 e a,8 a'\fE a a
+		d, g f! g c, d e\pE c
 		f d g g, c d e c %435
 		f, 4 f' c2
 		f4 d g8 f e f
@@ -881,7 +881,7 @@ SanctumOrgano = {
 		a4 g8
 		f d c %450
 		g'4 g,8
-		c r r
+		c\fE r r
 		h r r
 		a r r
 		g r r %455
@@ -889,7 +889,7 @@ SanctumOrgano = {
 		e a a,
 		d4 g8
 		c, d d,
-		g4 g'8 %460
+		g4 g'8\pE %460
 		fis4 d8
 		e4.
 		d8 d c
@@ -899,16 +899,16 @@ SanctumOrgano = {
 		c8 c' d
 		e, a g
 		d'4 d,8
-		g r r %470
+		g\fE r r %470
 		fis r r
 		e r r
-		d d' c
+		d d'\pE c
 		h e e,
 		a a, a' %475
 		g g, g'
-		c, r r
+		c,\fE r r
 		h r r
-		e d c
+		e\pE d c
 		f r r %480
 		d r r
 		g r r
@@ -916,10 +916,10 @@ SanctumOrgano = {
 		a r r
 		h e a, %485
 		h4 h,8
-		e r r
+		e\fE r r
 		d? r r
 		c r r
-		h dis h %490
+		h dis\pE h %490
 		e g e
 		a r r
 		d,? r r
@@ -930,17 +930,17 @@ SanctumOrgano = {
 		e4 dis8
 		g c a
 		h4 h,8 %500
-		e r r
+		e\fE r r
 		d! r r
 		c r r
-		h h' a
-		g16 a h8 h, %505
+		h h'\pE a
+		g16 a h8\fE h, %505
 		e r r
-		h h' a
+		h h'\pE a
 		g e d!
 		g c a
 		h4 h,8 %510
-		e r r
+		e\fE r r
 		d! r r
 		c r r
 		h r r
