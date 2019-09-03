@@ -480,12 +480,52 @@ RedemptionemAltoNotes = {
 		\clef treble
 		\key e \minor \time 4/4 \autoBeamOff \tempoRedemptionem
 			\set Score.currentBarNumber = #373
-		
+		r8 \mvTr e16([\pE^\soloE fis)] g8 a h4~ h16[ a h c]
+		a4~ a16[ g a h] g[ fis e dis] e[ fis g a]
+		h8 h, r4 r2 %375
+		R1
+		r8 h'16([ a)] g8 dis e c'16([ h)] a([ g)] fis([ e)]
+		dis8.[ e16] fis[ g a h] g[ a] h c a4
+		h r8 g a g r a
+		h16([ a)] g([ fis)] d'16.([ c32 h16)] a32([ g)] g8 fis a h %380
+		c16([ h)] a gis a8 h c16([ h)] a([ gis)] a8 h
+		gis16([ a)] h([ gis)] e4. fis16[ gis] a[ h c a]
+		f4~ f16[ a g f] e8[~ e32 d c h] c[ d e f g a h c]
+		d8 g, h([ a)] g4 r
+		R1 %385
+		r8 g a g c h16([ a)] h8 a
+		r g16 a h8 g e c'16([ h)] a([ g)] fis([ e)]
+		dis([ cis)] h8 r4 r2
+		r r4 r8 h'16 a
+		g[ e fis g] fis[ fis g a] g4~ g16[ c h c] %390
+		a[ g fis8]~ fis16[ h a h] g[ fis e8]~ e16[ a g a]
+		fis[ e dis? cis] h[ c'? h a] g8 fis16([ e)] dis4
+		e r r2\fermata \bar "||" %393 finis
 	}
 }
 
 RedemptionemAltoLyrics = \lyricmode {
+	Re -- dem -- pti -- o -- %373
+	_ _ _
+	_ nem, %375
 	
+	re -- dem -- pti -- o -- nem mi -- sit
+	po -- _ _ pu -- lo su --
+	o, man -- da -- vit, man --
+	da -- vit in __ ae -- ter -- num, in ae -- %380
+	ter -- num, man -- da -- vit in ae -- ter -- num
+	te -- sta -- men -- _ _
+	_ _ _
+	_ tum su -- um,
+	%385
+	man -- da -- vit in ae -- ter -- num,
+	in ae -- ter -- num te -- sta -- men -- tum
+	su -- um,
+	te -- sta --
+	men -- _ _ %390
+	_ _
+	_ _ _ tum su --
+	um. %393 finis
 }
 
 % AltoNotes = {
