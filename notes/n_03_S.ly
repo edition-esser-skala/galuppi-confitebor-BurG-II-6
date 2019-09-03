@@ -541,12 +541,210 @@ SanctumSopranoNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoSanctum
 			\set Score.currentBarNumber = #394
-		
+		\mvTr g'2\pE^\soloE g
+		R1 %395
+		r2 g
+		g e'8. a,16 a8 a
+		a8. gis16 gis8 d' d8. c16 c4
+		R1
+		r2 c %400
+		c r
+		\time 2/4 \tempoSanctumB c4 h
+		R2*3 %405
+		h4 h
+		h8. a16 a4
+		d d
+		d8. c16 c4
+		R2*2 %411
+		e16[ f e d] c[ e d c]
+		d[ e d c] h[ d c h]
+		c4 g
+		R2 %415
+		e'16[ f e d] c[ e d c]
+		d[ e d c] h[ d c h]
+		c4 h
+		a2
+		h4 r %420
+		R2
+		d16[ e d c] h[ d c h]
+		c[ d c h] a[ c h a]
+		h8[ c] d4
+		R2 %425
+		d16[ e d c] h[ d c h]
+		c[ d c h] a[ c h a]
+		h8[ cis] d4
+		d( cis)
+		\time 4/4 \tempoSanctumC d4 r r2 %430
+		R1
+		r2 r4 h
+		e8 d!16 c h8 e c8. h16 a4
+		r2 r4 c~
+		c h e2~ %435
+		e4 d g2
+		a8[ c, f a,] h4 c~
+		c16[ e d c] h8. c16 c4 e~
+		e d r c~
+		c h r d8 c %440
+		h4 c4. h16[ a] h8. c16
+		\time 3/4 \tempoSanctumD c8 e, c
+		g'8([ a)] h
+		c16[([ h c d)] e([ fis)]
+		g8. g,16 g8 %445
+		R4.
+		r8 g' f
+		e8.[ f16 d e]
+		c16[ h c d h c]
+		a8 h c %450
+		c4 h8
+		R4.*12 %463
+		r8 d c
+		h8.[ c16 a h] %465
+		g[ fis g a fis g]
+		e8[ e'16 fis d e]
+		c8 c h
+		h4 a8
+		R4.*3 %472
+		r8 r a
+		h8. a16 h8
+		c a c %475
+		d8. c16 d8
+		e c r
+		R4.
+		r8 c4~
+		c8 h a %480
+		d4.~
+		d8[ c h]
+		e4.~
+		e16[ d c h a g]
+		fis8 g8. g16 %485
+		g8([ fis8.)] e16
+		e8 r r
+		R4.*3 %490
+		r8 e' d!
+		c4.~
+		c8 d16([ e)] fis([ d)]
+		h4.~
+		h8[ c16 d e c] %495
+		a4.~
+		a16[ c h a g fis]
+		g[ fis g8 a]
+		h e, a
+		g([ fis8.)] e16 %500
+		e8 r r
+		R4.*2
+		r8 dis' dis
+		e dis r %505
+		R4.
+		r8 fis, fis
+		g16([ fis)] g8 a
+		h e,  a
+		g([ fis8.)] e16 %510
+		e8 r r
+		R4.*6 %517
+		R4.\fermataMarkup \bar "||" %518 finis
 	}
 }
 
 SanctumSopranoLyrics = \lyricmode {
+	San -- ctum, %394
+	%395
+	san --
+	ctum, san -- ctum et ter --
+	ri -- bi -- le, ter -- ri -- bi -- le,
 	
+	san -- %400
+	ctum,
+	san -- ctum
+	
+	et ter -- %406
+	ri -- bi -- le,
+	et ter --
+	ri -- bi -- le
+	
+	no -- _ %412
+	_ _
+	_ men,
+	%415
+	no -- _
+	_ _
+	_ men
+	e --
+	ius, %420
+	
+	no -- _
+	_ _
+	_ men,
+	%425
+	no -- _
+	_ _
+	_ men
+	e --
+	ius. %430
+	
+	I --
+	ni -- ti -- um sa -- pi -- en -- ti -- ae
+	ti --
+	mor, ti -- %435
+	mor Do --
+	_ _ _
+	_ mi -- ni, ti --
+	mor, ti --
+	mor, ti -- mor %440
+	Do -- _ _ _ mi --
+	ni, in -- tel --
+	le -- ctus
+	bo -- nus
+	o -- mni -- bus %445
+	
+	fa -- ci --
+	en --
+	_
+	_ ti -- bus %450
+	e -- um,
+	
+	fa -- ci -- %464
+	en -- %465
+	_
+	_
+	_ ti -- bus
+	e -- um:
+	
+	Lau -- %473
+	da -- ti -- o
+	e -- ius, lau -- %475
+	da -- ti -- o
+	e -- ius
+	
+	ma --
+	net in %480
+	sae --
+	
+	_
+	
+	_ cu -- lum %485
+	sae -- cu --
+	li,
+	
+	ma -- net, %491
+	ma --
+	net in
+	sae --
+	%495
+	_
+	
+	_
+	_ cu -- lum
+	sae -- cu -- %500
+	li,
+	
+	ma -- net, %504
+	ma -- net, %505
+	
+	ma -- net,
+	ma -- net in
+	sae -- cu -- lum
+	sae -- cu -- %510
+	li. %511 finis
 }
 
 % SopranoNotes = {

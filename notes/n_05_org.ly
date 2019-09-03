@@ -922,7 +922,7 @@ SanctumOrgano = {
 		h dis h %490
 		e g e
 		a r r
-		dis, r r
+		d,? r r
 		g r r
 		c, r r %495
 		fis r r
