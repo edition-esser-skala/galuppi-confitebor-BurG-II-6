@@ -147,9 +147,48 @@
 % 			\midi { \tempo 4. = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "4 REDEMPTIONEM MISIT"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\RedemptionemViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\RedemptionemViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \RedemptionemAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \RedemptionemAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\RedemptionemOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\RedemptionemBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "4 REDEMPTIONEM MISIT"
+			movement = "5 SANCTUM ET TERRIBILE"
 		}
 		\score {
 			<<
@@ -157,33 +196,39 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\RedemptionemViolinoI
+							\SanctumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\RedemptionemViolinoII
+							\SanctumViolinoII
 						}
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \SanctumSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \SanctumSopranoLyrics
+					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \RedemptionemAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \SanctumAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \RedemptionemAltoLyrics
+					\new Lyrics \lyricsto Alto \SanctumAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\RedemptionemOrgano
+						\SanctumOrgano
 					}
 				>>
 				\new FiguredBass {
-					\RedemptionemBassFigures
+					\SanctumBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4. = 60 }
 		}
 	}
 }

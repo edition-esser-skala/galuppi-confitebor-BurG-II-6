@@ -299,3 +299,12 @@ RedemptionemViolinoII = {
 		h, e16 fis dis8. e16 e4 r\fermata \bar "||" %393 finis
 	}
 }
+
+SanctumViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctum
+			\set Score.currentBarNumber = #394
+		
+	}
+}

@@ -313,6 +313,15 @@ RedemptionemViolinoI = {
 	}
 }
 
+SanctumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctum
+			\set Score.currentBarNumber = #394
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

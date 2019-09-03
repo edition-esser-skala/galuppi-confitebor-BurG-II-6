@@ -818,6 +818,19 @@ RedemptionemBassFigures = \figuremode {
 	r q r2 %393 finis
 }
 
+SanctumOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoSanctum
+			\set Score.currentBarNumber = #394
+		\mvTr c1\pE-\soloE
+	}
+}
+
+SanctumBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

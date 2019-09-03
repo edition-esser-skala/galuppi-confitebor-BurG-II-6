@@ -528,6 +528,19 @@ RedemptionemAltoLyrics = \lyricmode {
 	um. %393 finis
 }
 
+SanctumAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoSanctum
+			\set Score.currentBarNumber = #394
+		
+	}
+}
+
+SanctumAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

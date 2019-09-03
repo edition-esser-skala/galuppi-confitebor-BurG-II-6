@@ -536,6 +536,19 @@ FideliaSopranoLyrics = \lyricmode {
 	te. %363 finis
 }
 
+SanctumSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoSanctum
+			\set Score.currentBarNumber = #394
+		
+	}
+}
+
+SanctumSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
