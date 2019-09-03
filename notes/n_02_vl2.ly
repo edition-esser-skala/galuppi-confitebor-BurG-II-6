@@ -291,7 +291,7 @@ RedemptionemViolinoII = {
 		r8 e16 d c h a g fis8 a'16 g fis e d c %385
 		h4 r r r8 fis'
 		g4 r r2
-		r8 d e g4 a8 d,16 e fis8~
+		r8 dis? e g4 a8 d,16 e fis8~
 		fis g c,16 d e8 fis16 dis e fis dis8. e16
 		e4 r r2 %390
 		R1
