@@ -281,6 +281,21 @@ RedemptionemViolinoII = {
 		\clef treble
 		\key e \minor \time 4/4 \tempoRedemptionem
 			\set Score.currentBarNumber = #373
-		
+		R1*2
+		r8 dis'\fE e g4 a8 d,?16 e fis8~ %375
+		fis8 g c,16 d e8 fis16 dis e fis dis8. e16
+		e4 r r2
+		R1
+		r8 dis e4 r8 g a4
+		R1*5 %384
+		r8 e16 d c h a g fis8 a'16 g fis e d c %385
+		h4 r r r8 fis'
+		g4 r r2
+		r8 d e g4 a8 d,16 e fis8~
+		fis g c,16 d e8 fis16 dis e fis dis8. e16
+		e4 r r2 %390
+		R1
+		r2 r4 r8 fis
+		h, e16 fis dis8. e16 e4 r\fermata \bar "||" %393 finis
 	}
 }
