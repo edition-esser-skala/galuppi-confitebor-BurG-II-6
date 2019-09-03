@@ -771,6 +771,26 @@ RedemptionemOrgano = {
 		\key e \minor \time 4/4 \tempoRedemptionem
 			\set Score.currentBarNumber = #373
 		\mvTr e4.\pE-\soloE fis8 g g16 fis g8 e
+		fis fis16 e fis8 dis e fis g e
+		h h' g e a, a' fis d %375
+		g, g' e c a e' h' h,
+		e4. fis8 g a16 g fis8 a
+		h h, dis h e d? c4
+		h8 h' g e c h a d
+		g, a h c d4 c8 h %380
+		a h c h a h c d
+		e fis gis e a e16 d c8 a
+		d c h g c d e c
+		h c d d, g4. a8
+		h c16 h a8 c d e fis d %385
+		g h, c h a d g, d'
+		g h16 a g8 h, c4 r8 a
+		h h' g e a, a' fis d
+		g, g' e c a e' h' h,
+		e c' a h e, e' c a %390
+		d, d' h g c, c' a fis
+		h, cis dis h e a h h,
+		e e h' h, e4 r\fermata \bar "||" %393 finis
 	}
 }
 
