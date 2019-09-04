@@ -412,7 +412,7 @@ GloriaViolinoI = {
 		c4 r r r8 h16 a
 		h4 r r8 g, d g
 		d fis16 e d e fis d g a h g a8 a,
-		d16\f a'' g a fis8 g16 a h4 r
+		\kneeBeam d16\f a'' g a fis8 g16 a h4 r
 		r r8 c16\p h c4 r %525
 		r r8 h16 a h4 r
 		r8 g, d g d4 r8 d \noBreak
@@ -434,11 +434,11 @@ GloriaViolinoI = {
 		g a16 g fis e d c %550
 		h8 g r h'
 		a4 r
-		r8 g g g
+		r r16 g g g
 		fis4 r
 		r16 g fis g e g c, e %555
 		d4 r
-		r16 g fis? g e4
+		r16 g f g e4
 		r16 g fis g d4
 		r16 e d e c4
 		r16 e d e h4 %560

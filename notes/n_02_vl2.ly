@@ -389,6 +389,57 @@ GloriaViolinoII = {
 		\clef treble
 		\key g \major \time 4/4 \tempoGloria
 			\set Score.currentBarNumber = #519
-		
+		g''4.\pE g8 g2
+		r2 r4 r8 a16 g %520
+		a4 r r r8 g16 fis
+		g4 r r8 g, d g
+		d fis16 e d e fis d g a h g a8 a,
+		\kneeBeam d16\f fis' e fis d8 e16 fis g4 r
+		r r8 a16\p g a4 r %525
+		r r8 g16 fis g4 r
+		r8 g, d g d4 r8 d
+		e4 r8 fis \noBreak
+		g c, d8. d16
+		\twofourtime \time 2/4 \tempoGloriaB g16\f d e fis g a h c \noBreak
+		d c d e d e d c %530
+		h c h a g a h c
+		d4 d,
+		R2*8 %540
+		g'16 d, e fis g a h c
+		d c d e d e d c
+		h c h a g a h c
+		d c d e d e d c
+		h8 g r4 %545
+		R2
+		r4 g'8\pE g
+		g a16 g fis e d c
+		h8 g g' g
+		g a16 g fis e d c %550
+		h8 g r4
+		r4 r8 a'
+		g4 r
+		r r16 fis fis fis
+		e4 r %555
+		r16 g fis g d g h, d
+		c e d e c4
+		r16 d c d h4
+		r16 c h c a4
+		r16 h a h g4 %560
+		r16 c h c a4
+		r8 h e4~
+		e16 e d c d4~
+		d16 d c h c4~
+		c16 c h a h8 c %565
+		h4 a
+		g8 h e4~
+		e16 e d c d4~
+		d16 d c h c4~
+		c16 c h a h8 c %570
+		h4 a
+		g16\fE d e fis g a h c
+		d c d e d e d c
+		h c h a g a h c
+		d c d e d e d c %575
+		h8 g r4\fermata \bar "|." %576 FINIS
 	}
 }
