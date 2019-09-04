@@ -14,223 +14,223 @@
 #(set-global-staff-size 15.87)
 
 \book {
-% 	\bookpart {
-% 		\header {
-% 			movement = "1 CONFITEBOR"
-% 		}
-% 		\score {
-% 			<<
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\ConfiteborViolinoI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\ConfiteborViolinoII
-% 						}
-% 					>>
-% 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = \SopranoIncipit
-% 						\override Staff.InstrumentName.self-alignment-Y = ##f
-% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-% 						\new Voice = "Soprano" { \dynamicUp \ConfiteborSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \ConfiteborSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = \AltoIncipit
-% 						\override Staff.InstrumentName.self-alignment-Y = ##f
-% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-% 						\new Voice = "Alto" { \dynamicUp \ConfiteborAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \ConfiteborAltoLyrics
-% 				>>
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Organo"
-% 						\ConfiteborOrgano
-% 					}
-% 				>>
-% 				\new FiguredBass {
-% 					\ConfiteborBassFigures
-% 				}
-% 			>>
-% 			\layout { }
-% 			\midi { \tempo 4 = 90 }
-% 		}
-% 	}
-% 	\bookpart {
-% 		\header {
-% 			movement = "2 UT DET ILLIS"
-% 		}
-% 		\score {
-% 			<<
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\UtDetIllisViolinoI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\UtDetIllisViolinoII
-% 						}
-% 					>>
-% 				>>
-% 				\new ChoirStaff \with { \smallerGroupDistance } <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \UtDetIllisSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \UtDetIllisSopranoLyrics
-% 				>>
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Organo"
-% 						\UtDetIllisOrgano
-% 					}
-% 				>>
-% 				\new FiguredBass {
-% 					\UtDetIllisBassFigures
-% 				}
-% 			>>
-% 			\layout { }
-% 			\midi { \tempo 4 = 90 }
-% 		}
-% 	}
-% 	\bookpart {
-% 		\header {
-% 			movement = "3 FIDELIA OMNIA MANDATA"
-% 		}
-% 		\score {
-% 			<<
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\FideliaViolinoI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\FideliaViolinoII
-% 						}
-% 					>>
-% 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \FideliaSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \FideliaSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \FideliaAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \FideliaAltoLyrics
-% 				>>
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Organo"
-% 						\FideliaOrgano
-% 					}
-% 				>>
-% 				\new FiguredBass {
-% 					\FideliaBassFigures
-% 				}
-% 			>>
-% 			\layout { }
-% 			\midi { \tempo 4. = 60 }
-% 		}
-% 	}
-% 	\bookpart {
-% 		\header {
-% 			movement = "4 REDEMPTIONEM MISIT"
-% 		}
-% 		\score {
-% 			<<
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\RedemptionemViolinoI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\RedemptionemViolinoII
-% 						}
-% 					>>
-% 				>>
-% 				\new ChoirStaff \with { \smallerGroupDistance } <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \RedemptionemAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \RedemptionemAltoLyrics
-% 				>>
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Organo"
-% 						\RedemptionemOrgano
-% 					}
-% 				>>
-% 				\new FiguredBass {
-% 					\RedemptionemBassFigures
-% 				}
-% 			>>
-% 			\layout { }
-% 			\midi { \tempo 4 = 80 }
-% 		}
-% 	}
-% 	\bookpart {
-% 		\header {
-% 			movement = "5 SANCTUM ET TERRIBILE"
-% 		}
-% 		\score {
-% 			<<
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\SanctumViolinoI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\SanctumViolinoII
-% 						}
-% 					>>
-% 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \SanctumSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \SanctumSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \SanctumAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \SanctumAltoLyrics
-% 				>>
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Organo"
-% 						\SanctumOrgano
-% 					}
-% 				>>
-% 				\new FiguredBass {
-% 					\SanctumBassFigures
-% 				}
-% 			>>
-% 			\layout { }
-% 			\midi { \tempo 4. = 60 }
-% 		}
-% 	}
+	\bookpart {
+		\header {
+			movement = "1 CONFITEBOR"
+		}
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\ConfiteborViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\ConfiteborViolinoII
+						}
+					>>
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = \SopranoIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Soprano" { \dynamicUp \ConfiteborSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \ConfiteborSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \AltoIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Alto" { \dynamicUp \ConfiteborAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \ConfiteborAltoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\ConfiteborOrgano
+					}
+				>>
+				\new FiguredBass {
+					\ConfiteborBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 4 = 90 }
+		}
+	}
+	\bookpart {
+		\header {
+			movement = "2 UT DET ILLIS"
+		}
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\UtDetIllisViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\UtDetIllisViolinoII
+						}
+					>>
+				>>
+				\new ChoirStaff \with { \smallerGroupDistance } <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \UtDetIllisSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \UtDetIllisSopranoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\UtDetIllisOrgano
+					}
+				>>
+				\new FiguredBass {
+					\UtDetIllisBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 4 = 90 }
+		}
+	}
+	\bookpart {
+		\header {
+			movement = "3 FIDELIA OMNIA MANDATA"
+		}
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\FideliaViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\FideliaViolinoII
+						}
+					>>
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \FideliaSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \FideliaSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \FideliaAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \FideliaAltoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\FideliaOrgano
+					}
+				>>
+				\new FiguredBass {
+					\FideliaBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 4. = 60 }
+		}
+	}
+	\bookpart {
+		\header {
+			movement = "4 REDEMPTIONEM MISIT"
+		}
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\RedemptionemViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\RedemptionemViolinoII
+						}
+					>>
+				>>
+				\new ChoirStaff \with { \smallerGroupDistance } <<
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \RedemptionemAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \RedemptionemAltoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\RedemptionemOrgano
+					}
+				>>
+				\new FiguredBass {
+					\RedemptionemBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 4 = 80 }
+		}
+	}
+	\bookpart {
+		\header {
+			movement = "5 SANCTUM ET TERRIBILE"
+		}
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\SanctumViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\SanctumViolinoII
+						}
+					>>
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \SanctumSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \SanctumSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \SanctumAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \SanctumAltoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\SanctumOrgano
+					}
+				>>
+				\new FiguredBass {
+					\SanctumBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 4. = 60 }
+		}
+	}
 	\bookpart {
 		\header {
 			movement = "6 GLORIA PATRI"
