@@ -752,10 +752,121 @@ GloriaSopranoNotes = {
 		\clef treble
 		\key g \major \time 4/4 \autoBeamOff \tempoGloria
 			\set Score.currentBarNumber = #519
-		
+		\mvTr d'4.\pE^\soloE d8 d2
+		d8 c16 h e8 e16 d c8([ h)] c4 %520
+		c8 h16 a d8 d16 c h8. a16 h4
+		h8 a16 g c8 h a([ h)] a h
+		a[ h16 cis] d4~ d16[ fis e d] cis4
+		d4 r d8 c?16 h e8 e16 d
+		c8([ h)] c4 c8 h16 a d8 d16 c %525
+		h8. a16 h4 h8 a16 g c8 h
+		a([ h)] a h a[ h16 c] d4~
+		d8[ c16 h] c4~ c16[ d h c] a4
+		\time 2/4 \tempoGloriaB g4 r
+		R2*2 %531
+		d'4. d8
+		h h h h
+		a4. a8
+		g g h cis %535
+		d a d4~
+		d cis
+		d8 fis, g a
+		h a a16[ d c h]
+		a2 %540
+		g4 r
+		R2*3
+		r4 g8 g %545
+		g4 fis8 fis
+		g4 h
+		a2
+		g4 r
+		R2 %550
+		r8 g[ h c]
+		d[ e fis d]
+		g2
+		fis4. g16[ fis]
+		e8[ e, g a] %555
+		h[ c d h]
+		e2
+		d4. e16[ d]
+		c8[ c, e fis]
+		g[ a h g] %560
+		c2
+		h4 e~
+		e8[ d16 c] d4~
+		d8[ c16 h] c4~
+		c8[ h16 a] h8 c %565
+		h4( a)
+		g8 h e4~
+		e8[ d16 c] d4~
+		d8[ c16 h] c4~
+		c8[ h16 a] h8 c %570
+		h4( a)
+		g r
+		r a
+		h r
+		r a %575
+		h r\fermata \bar "|." %576 FINIS
 	}
 }
 
 GloriaSopranoLyrics = \lyricmode {
+	Glo -- ri -- a, %519
+	[glo -- ri -- a, glo -- ri -- a Pa -- tri, %520
+	glo -- ri -- a Pa -- tri et Fi -- li -- o,
+	glo -- ri -- a et Spi -- ri -- tu -- i
+	San -- _ _
+	cto. Glo -- ri -- a, glo -- ri -- a
+	Pa -- tri, glo -- ri -- a Pa -- tri et %525
+	Fi -- li -- o, glo -- ri -- a et Spi --
+	ri -- tu -- i San] -- _
+	_ _
+	cto.
 	
+	Si -- cut %532
+	e -- rat in prin --
+	ci -- pi --
+	o et nunc et %535
+	sem -- per, sem --
+	_
+	per, et nunc et
+	sem -- per, sem --
+	_ %540
+	per,
+	
+	et in %545
+	sae -- cu -- la
+	sae -- cu --
+	lo --
+	rum,
+	%550
+	a --
+	_
+	_
+	_ _
+	_ %555
+	_
+	_
+	_ _
+	_
+	_ %560
+	_
+	_ _
+	_
+	_
+	_ men, %565
+	a --
+	men, a -- _
+	_
+	_
+	_ men, %570
+	a --
+	men,
+	a --
+	men,
+	a -- %575
+	men. %576 FINIS
 }
+
+% Gloria Patri et Filio et Spiritui Sancto.
+% Sicut erat in principio et nunc et semper, et in saecula saeculorum, amen.
