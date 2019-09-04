@@ -360,10 +360,10 @@ SanctumViolinoII = {
 		g8 e a'
 		fis r r
 		R4.*4 %477
-		r16 g' d g h, d
+		r16 g d g h, d
 		c8 r r
 		R4.*8 %487
-		r16 h fis h d,! fis
+		r16 h' fis h d,! fis
 		e8 a e
 		fis? r r %490
 		R4.*11 %501
