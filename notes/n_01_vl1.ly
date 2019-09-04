@@ -352,9 +352,9 @@ SanctumViolinoI = {
 		R1
 		r2 r8 e' e e
 		f! d d d e f g4
-		f4. f8 e4 r %435
+		f4.\pE f8 e4 r %435
 		R1*2
-		r2 r8 g\pE e4
+		r2 r8 g e4
 		r8 g d4 r8 g c,4^\critnote
 		r8 g' g, g' a g f4~ \noBreak %440
 		f e d2
