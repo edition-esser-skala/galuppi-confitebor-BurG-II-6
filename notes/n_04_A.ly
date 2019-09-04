@@ -742,12 +742,110 @@ GloriaAltoNotes = {
 		\clef treble
 		\key g \major \time 4/4 \autoBeamOff \tempoGloria
 			\set Score.currentBarNumber = #519
-		
+		\mvTr h'4.\pE^\soloE h8 h2
+		h8 a16 g c8 c16 h a8([ g)] a4 %520
+		a8 g16 fis h8 h16 a g8. fis16 g4
+		g8 fis16 e a8 g fis([ g)] fis g
+		fis[ a16 g] fis8[ e16 d] h'[ a g fis] e4
+		d r h'8 a16 g c8 c16 h
+		a8([ g)] a4 a8 g16 fis h8 h16 a %525
+		g8. fis16 g4 g8 fis16 e a8 g
+		fis([ g)] fis g fis[ a16 g] fis8[ e16 d]
+		g4~ g16[ c a e] fis[ g32 fis g16 a] g8[ fis]
+		\time 2/4 \tempoGloriaB g4 r
+		R2*5 %534
+		g4. g8 %535
+		fis fis fis fis
+		e4. e8
+		d d e fis
+		g d g4~
+		g fis %540
+		g r
+		R2*5 %546
+		r4 g8 g
+		g4 fis8 fis
+		g4 h
+		a2 %550
+		g4 r
+		R2
+		r8 e[ g a]
+		h[ c d h]
+		c2 %555
+		h16[ c h a] g[ a g fis]
+		e8[ c e fis]
+		g[ a h g]
+		a2
+		g16[ a g fis] e[ fis e d] %560
+		c8[ a c d]
+		e[ fis g e]
+		a4. g16[ fis]
+		g4. fis16[ e]
+		fis8[ g16 fis] g8 a %565
+		g4( fis)
+		g r8 e
+		a4. g16[ fis]
+		g4. fis16[ e]
+		fis8[ g16 fis] g8 a %570
+		g4( fis)
+		g r
+		r fis
+		g r
+		r fis %575
+		g r\fermata \bar "|." %576 FINIS
 	}
 }
 
 GloriaAltoLyrics = \lyricmode {
+	Glo -- ri -- a, %519
+	glo -- ri -- a, glo -- ri -- a Pa -- tri, %520
+	glo -- ri -- a Pa -- tri et Fi -- li -- o,
+	glo -- ri -- a et Spi -- ri -- tu -- i
+	San -- _ _ _
+	cto. Glo -- ri -- a, glo -- ri -- a
+	Pa -- tri, glo -- ri -- a Pa -- tri et %525
+	Fi -- li -- o, glo -- ri -- a et Spi --
+	ri -- tu -- i San -- _
+	_ _ _
+	cto.
 	
+	Si -- cut %535
+	e -- rat in prin --
+	ci -- pi --
+	o et nunc et
+	sem -- per, sem --
+	_ %540
+	per,
+	
+	et in %547
+	sae -- cu -- la
+	sae -- cu --
+	lo -- %550
+	rum,
+	
+	a --
+	_
+	_ %555
+	_ _
+	_
+	_
+	_
+	_ _ %560
+	_
+	_
+	_ _
+	_ _
+	_ _ men, %565
+	a --
+	men, a --
+	_ _
+	_ _
+	_ _ men, %570
+	a --
+	men,
+	a --
+	men,
+	a -- %575
+	men. %576 FINIS
 }
 
 % 1  Alleluja. Confitebor tibi, Domine, in toto corde meo, in consilio iustorum, et congregatione.
