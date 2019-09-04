@@ -752,7 +752,7 @@ GloriaAltoNotes = {
 		g8. fis16 g4 g8 fis16 e a8 g
 		fis([ g)] fis g fis[ a16 g] fis8[ e16 d]
 		g4~ g16[ c a e] fis[ g32 fis g16 a] g8[ fis]
-		\time 2/4 \tempoGloriaB g4 r
+		\twofourtime \time 2/4 \tempoGloriaB g4 r
 		R2*5 %534
 		g4. g8 %535
 		fis fis fis fis

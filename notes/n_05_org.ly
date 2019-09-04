@@ -1089,15 +1089,15 @@ GloriaOrgano = {
 		fis4 d \once \tieDashed e2~
 		e4 c d8 g, r4
 		R1
-		d'8 e fis d g4 e
+		d'8\fE e fis d g4 e\pE
 		fis2~ fis4 d %525
 		e2~ e4 c
 		d8 g r4 r2 \noBreak
 		R1
-		\twofourtime \time 2/4 \tempoGloriaB g,4 g'
+		\twofourtime \time 2/4 \tempoGloriaB g,4\fE g'
 		fis d %530
 		g,4. g'8
-		fis e fis d
+		fis\pE e fis d
 		g g, h c
 		d4 d,
 		g8 g' fis e %535
@@ -1106,11 +1106,11 @@ GloriaOrgano = {
 		d c
 		h8 d h c
 		d4 d, %540
-		g g'
+		g\fE g'
 		fis d
 		g,4. g'8
 		fis e fis d
-		g,4 h %545
+		g,4 h\pE %545
 		c d
 		e h8 c
 		d2
@@ -1137,7 +1137,7 @@ GloriaOrgano = {
 		e, a
 		d, g8 c, %570
 		d4 d,
-		g g'
+		g\fE g'
 		fis d
 		g,4. g'8
 		fis e fis d %575

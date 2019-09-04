@@ -762,7 +762,7 @@ GloriaSopranoNotes = {
 		h8. a16 h4 h8 a16 g c8 h
 		a([ h)] a h a[ h16 c!] d4~
 		d8[ c16 h] c4~ c16[ d h c] a4
-		\time 2/4 \tempoGloriaB g4 r
+		\twofourtime \time 2/4 \tempoGloriaB g4 r
 		R2*2 %531
 		d'4. d8
 		h h h h
