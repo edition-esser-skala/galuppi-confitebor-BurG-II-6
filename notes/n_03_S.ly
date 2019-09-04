@@ -747,14 +747,15 @@ SanctumSopranoLyrics = \lyricmode {
 	li. %511 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+GloriaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \autoBeamOff \tempoGloria
+			\set Score.currentBarNumber = #519
+		
+	}
+}
+
+GloriaSopranoLyrics = \lyricmode {
+	
+}

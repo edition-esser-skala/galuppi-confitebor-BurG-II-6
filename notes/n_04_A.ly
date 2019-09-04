@@ -737,17 +737,18 @@ SanctumAltoLyrics = \lyricmode {
 	li. %511 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+GloriaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \autoBeamOff \tempoGloria
+			\set Score.currentBarNumber = #519
+		
+	}
+}
+
+GloriaAltoLyrics = \lyricmode {
+	
+}
 
 % 1  Alleluja. Confitebor tibi, Domine, in toto corde meo, in consilio iustorum, et congregatione.
 % 2  Magna opera Domini: Exquisita in omnes voluntates eius.

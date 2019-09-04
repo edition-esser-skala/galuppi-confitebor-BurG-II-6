@@ -1079,14 +1079,15 @@ SanctumBassFigures = \figuremode {
 	r4. %518 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+GloriaOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \tempoGloria
+			\set Score.currentBarNumber = #519
+		\mvTr g1\pE-\soloE
+	}
+}
+
+GloriaBassFigures = \figuremode {
+	
+}

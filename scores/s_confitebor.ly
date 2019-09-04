@@ -186,9 +186,54 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "5 SANCTUM ET TERRIBILE"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\SanctumViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\SanctumViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \SanctumSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \SanctumSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \SanctumAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \SanctumAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SanctumOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\SanctumBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "5 SANCTUM ET TERRIBILE"
+			movement = "6 GLORIA PATRI"
 		}
 		\score {
 			<<
@@ -196,39 +241,39 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\SanctumViolinoI
+							\GloriaViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\SanctumViolinoII
+							\GloriaViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \SanctumSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \SanctumSopranoLyrics
+					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \SanctumAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \SanctumAltoLyrics
+					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SanctumOrgano
+						\GloriaOrgano
 					}
 				>>
 				\new FiguredBass {
-					\SanctumBassFigures
+					\GloriaBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4. = 60 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

@@ -208,6 +208,7 @@ tempoSanctum = \tempoMarkup "Grave"
 	tempoSanctumB = \tempoMarkup "Presto"
 	tempoSanctumC = \tempoMarkup "Adagio"
 	tempoSanctumD = \tempoMarkup "[Allegro]"
+tempoGloria = \tempoMarkup "Grave"
 
 
 
