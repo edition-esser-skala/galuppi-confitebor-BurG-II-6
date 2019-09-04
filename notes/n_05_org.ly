@@ -1085,6 +1085,63 @@ GloriaOrgano = {
 		\key g \major \time 4/4 \tempoGloria
 			\set Score.currentBarNumber = #519
 		\mvTr g1\pE-\soloE
+		g'4 e fis2~ %520
+		fis4 d \once \tieDashed e2~
+		e4 c d8 g, r4
+		R1
+		d'8 e fis d g4 e
+		fis2~ fis4 d %525
+		e2~ e4 c
+		d8 g r4 r2 \noBreak
+		R1
+		\twofourtime \time 2/4 \tempoGloriaB g,4 g'
+		fis d %530
+		g,4. g'8
+		fis e fis d
+		g g, h c
+		d4 d,
+		g8 g' fis e %535
+		d4 fis8 g
+		a4 a,
+		d c
+		h8 d h c
+		d4 d, %540
+		g g'
+		fis d
+		g,4. g'8
+		fis e fis d
+		g,4 h %545
+		c d
+		e h8 c
+		d2
+		g,4 g'
+		c, d %550
+		g g,
+		fis' d
+		e2
+		d
+		c %555
+		g'
+		c4 c,
+		h2
+		a
+		e' %560
+		a
+		g
+		fis4 h
+		e, a
+		d, g8 c, %565
+		d4 d,
+		g g'
+		fis h
+		e, a
+		d, g8 c, %570
+		d4 d,
+		g g'
+		fis d
+		g,4. g'8
+		fis e fis d %575
+		g4 r\fermata \bar "|." %576 FINIS
 	}
 }
 
