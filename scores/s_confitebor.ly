@@ -7,8 +7,45 @@
 \include "../definitions.ly"
 
 \paper {
-	first-page-number = #1
-	systems-per-page = #1
+	#(set-paper-size "a4" 'portrait)
+	two-sided = ##t
+	top-margin = 1\cm
+	bottom-margin = .5\cm
+	outer-margin = 2\cm
+	inner-margin = 1.5\cm
+	indent = 2.5\cm
+	
+	system-system-spacing =
+    #'((basic-distance . 30)
+       (minimum-distance . 30)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-markup-spacing =
+    #'((basic-distance . 5)
+       (minimum-distance . 5)
+       (padding . -100)
+       (stretchability . 0))
+		
+	markup-system-spacing =
+    #'((basic-distance . 15)
+       (minimum-distance . 15)
+       (padding . -100)
+       (stretchability . 0))
+	
+	last-bottom-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 1.0e7))
+	
+	systems-per-page = #2
 }
 
 #(set-global-staff-size 15.87)
@@ -66,6 +103,11 @@
 	\bookpart {
 		\header {
 			movement = "2 UT DET ILLIS"
+		}
+		\paper {
+			systems-per-page = #3
+			system-system-spacing.basic-distance = #25
+			system-system-spacing.minimum-distance = #25
 		}
 		\score {
 			<<
@@ -150,6 +192,11 @@
 	\bookpart {
 		\header {
 			movement = "4 REDEMPTIONEM MISIT"
+		}
+		\paper {
+			systems-per-page = #3
+			system-system-spacing.basic-distance = #25
+			system-system-spacing.minimum-distance = #25
 		}
 		\score {
 			<<
