@@ -1,17 +1,18 @@
-composer: Galuppi, Baldassare
+composer:
+  last: Galuppi
+  first: Baldassare
 title: Confitebor
 id: BurG II/6
 genre: psalm
 scoring: S, A (solo), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: D-Dl
     shelfmark: Mus.2973-E-3
-    type: manuscript copy
     date: 1750–1764
     rism: 212006113
-    url: http://digital.slub-dresden.de/id41646114X
-github: galuppi-confitebor-BurG-II-6
+    url: https://digital.slub-dresden.de/id41646114X
+    license: public domain
+    principal: true
 imslp: Confitebor_tibi_Domine_in_G_major,_B.II.6_(Galuppi,_Baldassare)
-notes:
-
